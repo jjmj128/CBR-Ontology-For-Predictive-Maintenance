@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="PredictMaint_myCBR" author="" >
+<exp obj="Case" type="Concept" >
+  <desc>
+&#10;                                                                                                                                                                                                                                                                                                                                                                                                </desc>
+</exp>
+<exp obj="Publication Year" c="Case" type="AttributeDesc" >
+  <desc>
+&#10;                                                                                                                                                                                                                                                                                                                                                        </desc>
+</exp>
+<exp obj="Online/Off-line" c="Case" type="AttributeDesc" >
+  <desc>
+&#10;                                                                                                                                                                                                                                                                                                                                                                                                </desc>
+</exp>
+<exp obj="Case study type" c="Case" type="AttributeDesc" >
+  <desc>
+&#10;                                                                                                                                                                                                                                                                                                                                                                                                </desc>
+</exp>
+<exp obj="Number of input variables" c="Case" type="AttributeDesc" >
+  <desc>
+                                                                                                                                                                                                                                                                                                                                                                              </desc>
+</exp>
+<exp obj="Input type" c="Case" type="AttributeDesc" >
+  <desc>
+                                                                                                                                                                                                                                                                                                                                                                                              </desc>
+</exp>
+<exp obj="Task" c="Case" type="AttributeDesc" >
+  <desc>
+&#10;                                                                                                                    </desc>
+</exp>
+<exp obj="Reference" c="Case" type="AttributeDesc" >
+  <desc>
+                                                                                                                                                                                                                                                                                                      </desc>
+</exp>
+</Project>

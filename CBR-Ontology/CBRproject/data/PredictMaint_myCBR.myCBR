@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="PredictMaint_myCBR" author="" >
+<svs>
+  <sv name="_unknown_"/>
+  <sv name="_undefined_"/>
+  <sv name="_others_"/>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="_unknown_">
+</qsym>
+<qsym name="_undefined_">
+</qsym>
+<qsym name="_others_">
+</qsym>
+</fct>
+</svs>
+<model>
+  <concept name="Case">
+    <desc name="Task" type="Symbol" mult="false" >
+      <symbol value="Multiple steps future state forecast" />
+      <symbol value="Fault identification" />
+      <symbol value="Fault detection" />
+      <symbol value="Remaining useful life estimation" />
+      <symbol value="Feature extraction" />
+      <symbol value="One step future state forecast" />
+      <symbol value="Health modelling" />
+      <symbol value="Fault feature extraction" />
+      <symbol value="Health assessment" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Multiple steps future state forecast">
+</qsym>
+<qsym name="Fault identification">
+</qsym>
+<qsym name="Fault detection">
+</qsym>
+<qsym name="Remaining useful life estimation">
+</qsym>
+<qsym name="Feature extraction">
+</qsym>
+<qsym name="One step future state forecast">
+</qsym>
+<qsym name="Health modelling">
+</qsym>
+<qsym name="Fault feature extraction">
+</qsym>
+<qsym name="Health assessment">
+</qsym>
+</fct>
+<fct name="taskFct" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Multiple steps future state forecast">
+<csym name="Fault detection" sim="0.03"/>
+<csym name="Remaining useful life estimation" sim="0.03"/>
+<csym name="One step future state forecast" sim="0.06"/>
+<csym name="Health modelling" sim="0.01"/>
+<csym name="Health assessment" sim="0.04"/>
+</qsym>
+<qsym name="Fault identification">
+<csym name="Fault detection" sim="0.25"/>
+<csym name="Remaining useful life estimation" sim="0.07"/>
+<csym name="Health modelling" sim="0.07"/>
+<csym name="Fault feature extraction" sim="0.02"/>
+<csym name="Health assessment" sim="0.08"/>
+</qsym>
+<qsym name="Fault detection">
+<csym name="Multiple steps future state forecast" sim="0.03"/>
+<csym name="Fault identification" sim="0.25"/>
+<csym name="Remaining useful life estimation" sim="0.05"/>
+<csym name="One step future state forecast" sim="0.02"/>
+<csym name="Health modelling" sim="0.08"/>
+<csym name="Fault feature extraction" sim="0.03"/>
+<csym name="Health assessment" sim="0.09"/>
+</qsym>
+<qsym name="Remaining useful life estimation">
+<csym name="Multiple steps future state forecast" sim="0.03"/>
+<csym name="Fault identification" sim="0.07"/>
+<csym name="Fault detection" sim="0.05"/>
+<csym name="One step future state forecast" sim="0.02"/>
+<csym name="Health modelling" sim="0.08"/>
+<csym name="Fault feature extraction" sim="0.02"/>
+<csym name="Health assessment" sim="0.07"/>
+</qsym>
+<qsym name="Feature extraction">
+</qsym>
+<qsym name="One step future state forecast">
+<csym name="Multiple steps future state forecast" sim="0.06"/>
+<csym name="Fault detection" sim="0.02"/>
+<csym name="Remaining useful life estimation" sim="0.02"/>
+<csym name="Health assessment" sim="0.03"/>
+</qsym>
+<qsym name="Health modelling">
+<csym name="Multiple steps future state forecast" sim="0.01"/>
+<csym name="Fault identification" sim="0.07"/>
+<csym name="Fault detection" sim="0.08"/>
+<csym name="Remaining useful life estimation" sim="0.08"/>
+<csym name="Fault feature extraction" sim="0.03"/>
+<csym name="Health assessment" sim="0.13"/>
+</qsym>
+<qsym name="Fault feature extraction">
+<csym name="Fault identification" sim="0.02"/>
+<csym name="Fault detection" sim="0.03"/>
+<csym name="Remaining useful life estimation" sim="0.02"/>
+<csym name="Health modelling" sim="0.03"/>
+<csym name="Health assessment" sim="0.02"/>
+</qsym>
+<qsym name="Health assessment">
+<csym name="Multiple steps future state forecast" sim="0.04"/>
+<csym name="Fault identification" sim="0.08"/>
+<csym name="Fault detection" sim="0.09"/>
+<csym name="Remaining useful life estimation" sim="0.07"/>
+<csym name="One step future state forecast" sim="0.03"/>
+<csym name="Health modelling" sim="0.13"/>
+<csym name="Fault feature extraction" sim="0.02"/>
+</qsym>
+</fct>
+    </desc>
+    <desc name="Online/Off-line" type="Symbol" mult="false" >
+      <symbol value="Unknown synchronization" />
+      <symbol value="Off-line" />
+      <symbol value="Online" />
+      <symbol value="Both" />
+<fct name="onlineOfflineFct" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Unknown synchronization">
+<csym name="Unknown synchronization" sim="0.5"/>
+<csym name="Off-line" sim="0.5"/>
+<csym name="Online" sim="0.5"/>
+<csym name="Both" sim="1.0"/>
+</qsym>
+<qsym name="Off-line">
+<csym name="Unknown synchronization" sim="0.5"/>
+<csym name="Both" sim="1.0"/>
+</qsym>
+<qsym name="Online">
+<csym name="Unknown synchronization" sim="0.5"/>
+<csym name="Both" sim="1.0"/>
+</qsym>
+<qsym name="Both">
+<csym name="Unknown synchronization" sim="1.0"/>
+<csym name="Off-line" sim="1.0"/>
+<csym name="Online" sim="1.0"/>
+</qsym>
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Unknown synchronization">
+</qsym>
+<qsym name="Off-line">
+</qsym>
+<qsym name="Online">
+</qsym>
+<qsym name="Both">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Publication identifier" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Reference" type="Integer" min="1" max="263" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Case study type" type="Symbol" mult="false" >
+      <symbol value="Pipelines and ducts" />
+      <symbol value="Energy cells and batteries" />
+      <symbol value="Lubricants" />
+      <symbol value="Pipelines" />
+      <symbol value="Unknown Item Type" />
+      <symbol value="Electromechanical systems" />
+      <symbol value="Optical devices" />
+      <symbol value="Rotary machines" />
+      <symbol value="Production lines" />
+      <symbol value="Electrical components" />
+      <symbol value="Structures" />
+      <symbol value="Power transmission device" />
+      <symbol value="Reciprocating machines" />
+<fct name="caseStudyTypeFct" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Pipelines and ducts">
+</qsym>
+<qsym name="Energy cells and batteries">
+<csym name="Rotary machines" sim="0.1"/>
+<csym name="Production lines" sim="0.3"/>
+<csym name="Electrical components" sim="0.9"/>
+<csym name="Structures" sim="0.1"/>
+<csym name="Reciprocating machines" sim="0.1"/>
+</qsym>
+<qsym name="Lubricants">
+</qsym>
+<qsym name="Pipelines">
+</qsym>
+<qsym name="Unknown Item Type">
+</qsym>
+<qsym name="Electromechanical systems">
+</qsym>
+<qsym name="Optical devices">
+</qsym>
+<qsym name="Rotary machines">
+<csym name="Energy cells and batteries" sim="0.1"/>
+<csym name="Production lines" sim="0.3"/>
+<csym name="Electrical components" sim="0.1"/>
+<csym name="Structures" sim="0.65"/>
+<csym name="Reciprocating machines" sim="0.75"/>
+</qsym>
+<qsym name="Production lines">
+<csym name="Energy cells and batteries" sim="0.3"/>
+<csym name="Rotary machines" sim="0.3"/>
+<csym name="Electrical components" sim="0.3"/>
+<csym name="Structures" sim="0.3"/>
+<csym name="Reciprocating machines" sim="0.3"/>
+</qsym>
+<qsym name="Electrical components">
+<csym name="Energy cells and batteries" sim="0.9"/>
+<csym name="Rotary machines" sim="0.1"/>
+<csym name="Production lines" sim="0.3"/>
+<csym name="Structures" sim="0.1"/>
+<csym name="Reciprocating machines" sim="0.1"/>
+</qsym>
+<qsym name="Structures">
+<csym name="Energy cells and batteries" sim="0.1"/>
+<csym name="Rotary machines" sim="0.65"/>
+<csym name="Production lines" sim="0.3"/>
+<csym name="Electrical components" sim="0.1"/>
+<csym name="Reciprocating machines" sim="0.75"/>
+</qsym>
+<qsym name="Power transmission device">
+</qsym>
+<qsym name="Reciprocating machines">
+<csym name="Energy cells and batteries" sim="0.1"/>
+<csym name="Rotary machines" sim="0.75"/>
+<csym name="Production lines" sim="0.3"/>
+<csym name="Electrical components" sim="0.1"/>
+<csym name="Structures" sim="0.75"/>
+</qsym>
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Pipelines and ducts">
+</qsym>
+<qsym name="Energy cells and batteries">
+</qsym>
+<qsym name="Lubricants">
+</qsym>
+<qsym name="Pipelines">
+</qsym>
+<qsym name="Unknown Item Type">
+</qsym>
+<qsym name="Electromechanical systems">
+</qsym>
+<qsym name="Optical devices">
+</qsym>
+<qsym name="Rotary machines">
+</qsym>
+<qsym name="Production lines">
+</qsym>
+<qsym name="Electrical components">
+</qsym>
+<qsym name="Structures">
+</qsym>
+<qsym name="Power transmission device">
+</qsym>
+<qsym name="Reciprocating machines">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Input for the model" type="Symbol" mult="false" >
+      <symbol value="Unknow format" />
+      <symbol value="Signals" />
+      <symbol value="Time series" />
+      <symbol value="Structured text-based" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Unknow format">
+</qsym>
+<qsym name="Signals">
+</qsym>
+<qsym name="Time series">
+</qsym>
+<qsym name="Structured text-based">
+</qsym>
+</fct>
+<fct name="inputForTheModelFct" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Unknow format">
+</qsym>
+<qsym name="Signals">
+<csym name="Time series" sim="0.7"/>
+<csym name="Structured text-based" sim="0.4"/>
+</qsym>
+<qsym name="Time series">
+<csym name="Signals" sim="0.7"/>
+<csym name="Structured text-based" sim="0.9"/>
+</qsym>
+<qsym name="Structured text-based">
+<csym name="Signals" sim="0.4"/>
+<csym name="Time series" sim="0.9"/>
+</qsym>
+</fct>
+    </desc>
+    <desc name="Study title" type="String" mult="true" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Case study" type="String" mult="false" >
+      <fct name="caseStudyFct" type="String" symm="true" config="LEVENSHTEIN" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Performance indicator" type="String" mult="true" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Publication Year" type="Integer" min="1981" max="2021" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+      <fct name="yearFct" type="AdvancedInteger" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX">
+        <point x="-40.0" y="0.0" />
+        <point x="-35.0" y="0.0" />
+        <point x="-32.0" y="0.0" />
+        <point x="-31.0" y="0.0" />
+        <point x="-30.0" y="0.0" />
+        <point x="-29.0" y="0.04" />
+        <point x="-28.0" y="0.08" />
+        <point x="-27.0" y="0.12" />
+        <point x="-26.0" y="0.16" />
+        <point x="-25.0" y="0.2" />
+        <point x="-23.0" y="0.28" />
+        <point x="-22.0" y="0.32" />
+        <point x="-21.0" y="0.36" />
+        <point x="-20.0" y="0.4" />
+        <point x="-19.0" y="0.44" />
+        <point x="-18.0" y="0.48" />
+        <point x="-17.0" y="0.52" />
+        <point x="-16.0" y="0.56" />
+        <point x="-15.0" y="0.6" />
+        <point x="-14.0" y="0.64" />
+        <point x="-13.0" y="0.68" />
+        <point x="-12.0" y="0.72" />
+        <point x="-11.0" y="0.76" />
+        <point x="-10.0" y="0.8" />
+        <point x="-9.0" y="0.84" />
+        <point x="-8.0" y="0.88" />
+        <point x="-7.0" y="0.92" />
+        <point x="-6.0" y="0.96" />
+        <point x="-5.0" y="1.0" />
+        <point x="-4.0" y="1.0" />
+        <point x="-3.0" y="1.0" />
+        <point x="-2.0" y="1.0" />
+        <point x="-1.0" y="1.0" />
+        <point x="-0.5" y="1.0" />
+        <point x="0.0" y="1.0" />
+        <point x="0.5" y="1.0" />
+        <point x="1.0" y="1.0" />
+        <point x="2.0" y="1.0" />
+        <point x="3.0" y="1.0" />
+        <point x="5.0" y="1.0" />
+        <point x="10.0" y="1.0" />
+        <point x="20.0" y="1.0" />
+        <point x="24.0" y="0.24" />
+        <point x="40.0" y="0.0" />
+      </fct>
+    </desc>
+    <desc name="Input type" type="Symbol" mult="false" >
+      <symbol value="Loss of active materials of the positive electrode , Loss of active materials of the negative electrode, Loss of lithium inventory" />
+      <symbol value="Battery capacity degradation data" />
+      <symbol value="Temperature, Current, Deformation" />
+      <symbol value="Free text logs" />
+      <symbol value="Compressor Temperature, Compressor Pressure, Turbine Temperature, Turbine Pressure, Shaft speed, Altitude, Mach Number, Fuel flow" />
+      <symbol value="Frequency center, Frequency variance, Mean square frequency" />
+      <symbol value="Current, Voltage" />
+      <symbol value="Temperature, Fluid Pressure, Flow rates, Electric signals" />
+      <symbol value="Temperature, Fluid Pressure, Spinning speed" />
+      <symbol value="Temperature, Preassure (fluids), Humidity, Power, Fuel flow" />
+      <symbol value="Condenser vacuum, Generator Power, Temperature, Fluid ressr" />
+      <symbol value="Unknown variable" />
+      <symbol value="Health index" />
+      <symbol value="Gyroscope drift" />
+      <symbol value="Load , Frequency, Data points (x,y), Geometric parameter (S)" />
+      <symbol value="Capacitator impedance frecuency response" />
+      <symbol value="Temperature, Flow rates" />
+      <symbol value="Distance, Degradation speed" />
+      <symbol value="Resistance, Degradation rate" />
+      <symbol value="Spinning speed, Torque, Current" />
+      <symbol value="Temperature, Electrical resistance" />
+      <symbol value="Temperature, Pressure, Spinning Speed" />
+      <symbol value="wind power" />
+      <symbol value="Thickness irregularities" />
+      <symbol value="Time, Resistance" />
+      <symbol value="gyroscope drift" />
+      <symbol value="Current" />
+      <symbol value="Diverse turbofan signals" />
+      <symbol value="Health index, Crack length" />
+      <symbol value="Voltage, Impedance, Current, Temperature" />
+      <symbol value="Thermal conductivity, Coefficient of heat transfer, Degree of blackness" />
+      <symbol value="Flank wear width, Cutting force" />
+      <symbol value="Temperature, Voltage" />
+      <symbol value="Operating time in days, Operating time in motor-hours, Viscosity, ignition point, Total Base Number, Anti-oxidation particles percentage, Anti-wear Particles percentage, Elements ppm, Sulphating products percentage, Soot percentage" />
+      <symbol value="Battery capacity" />
+      <symbol value="Voltage, Current" />
+      <symbol value="Flow rates, efficiency" />
+      <symbol value="Open circuit voltage, State of charge, Current, Diffusion voltage" />
+      <symbol value="Condenser vacuum, Generaor Power, Tmperature" />
+      <symbol value="Equipment effectiveness, Down time, Scrap rate" />
+      <symbol value="Info vector" />
+      <symbol value="Rotor speed, Vibration, Aircraft Maneuvers" />
+      <symbol value="Results of a fault detection method " />
+      <symbol value="N dimensional feature vector" />
+      <symbol value="Temperature, Fluid Pressure, Spinning speed, Baypass ratio" />
+      <symbol value="Flow rate, Average pressure change " />
+      <symbol value="Steam mass flow, Flue gas temperature, Tube thickness" />
+      <symbol value="Pressure drop, Volumetric flow rate, Cake thickness, Porosity" />
+      <symbol value="Vibration level" />
+      <symbol value="Temperature, Fluid Pressure, Humidity, Power, Fuel flow" />
+      <symbol value="Corresponding cycle number, Battery capacity" />
+      <symbol value="Capacitance, Degradation rate" />
+      <symbol value="Voltage at discharge, Battery capacity" />
+      <symbol value="Current crack depth" />
+      <symbol value="Corresponding time, Force measurement" />
+      <symbol value="Temperature, Preassure (fluids), Spinning speed, Baypass ratio" />
+      <symbol value="Mechanical stresses, Life cycles, Mechanical Pressure, Elastic strains, Plastic strains" />
+      <symbol value="Frequency" />
+      <symbol value="Relative Luminosity" />
+      <symbol value="Measurement vector, Control input vector" />
+      <symbol value="Acceleration" />
+      <symbol value="energy, hits" />
+      <symbol value="Voltage, Current, Impedance, Temperature" />
+      <symbol value="Temperature, Acustic, Spinning speed, Humidity, Current" />
+      <symbol value="Energy, Hits" />
+      <symbol value="Condenser vacuum, Generator Power, Tmperature" />
+      <symbol value="Physical fan speed, Corrected fan speed" />
+      <symbol value="Acustic signal" />
+      <symbol value="Loss of active materials (LAMs) of the positive electrode  , Loss of active materials (LAMs) of the negative electrode, Loss of lithium inventory (LLI)" />
+      <symbol value="Temperature, Preassure (fluids), Flow rates, Electric signals" />
+      <symbol value="Compressor Flow Rate, Compressor Voltage, Load Torque, Compressor Motor Torque, Molar mass nitrogen, Molar mass oxygen, Lumped volume of cathode, FC stack temperature" />
+      <symbol value="degradation" />
+      <symbol value="Frequency center, Frequency variance, Mean square frequency, Maximum contact stress, Maximum bending stress, Number of gear meshing" />
+      <symbol value="Condenser vacuum, Tmperature" />
+      <symbol value="Spinning speed, Distance, Time" />
+      <symbol value="Mechanical stresses, Life cycles, Preassure (solid mechanics), Elastic strains, Plastic strains" />
+      <symbol value="Real infrared thermography data" />
+      <symbol value="Peak-to-Peak, Maximum peak value, Root mean square, Kurtosis, Skewness, Mutual information, Entropy, Arithmetic mean of PSD, Line integral, Autoregressive model, Energy" />
+      <symbol value="Acustic features, Current" />
+      <symbol value="Weighted minimum quantization" />
+      <symbol value="Modelling error" />
+      <symbol value="Temporal dependencies , Spatial dependencies " />
+      <symbol value="Acceleration, Frequency, Vibrations" />
+      <symbol value="Mechanical stresses, Temperature, Voltage, Impurities" />
+      <symbol value="Not specified others" />
+      <symbol value="In-line oil debris, Vibration Analysis MEMS" />
+      <symbol value="Peak to peak of ripple voltaje, Ripple factor" />
+      <symbol value="Temperature, Static pressure, Total Pressure" />
+      <symbol value="Contamination level, Not specified others" />
+      <symbol value="Health index, Model , Number of cycles" />
+      <symbol value="Imbalance source vector , Cracked source shaft vector " />
+      <symbol value="Wind power" />
+      <symbol value="Temperature, Vibration" />
+      <symbol value="Temperature" />
+      <symbol value="Temperature, Humidity, Current, Time" />
+      <symbol value="Weighted minimum quantization error" />
+      <symbol value="Temperature, Flow rate" />
+      <symbol value="Time" />
+      <symbol value="Temperature, Preassure (fluids), Spinning speed" />
+      <symbol value="Exhaust gas temperature margin" />
+      <symbol value="Vibrations" />
+      <symbol value="Condenser vacuum, Generator Power, Temperature, Preassure (fluids)" />
+      <symbol value="Traffic volume" />
+      <symbol value="Temperature, Voltage, Current, Power" />
+      <symbol value="Voltage" />
+      <symbol value="Load , Frequency, Data points, Geometric parameter (S)" />
+      <symbol value="Condenser vacuum, Generator Power, Temperature, Fluid Pressr" />
+      <symbol value="Voltage, Current, Temperature" />
+      <symbol value="Operating time in days, Operating time in motor-hours, Viscosity, ignition point, Total Base Number, Anti-oxidation particles percentage, Anti-wear Particles percentage, Elements ppm (Fe, Cr, Pb, Cu, Na, NP, Mo), Sulphating products percentage, Soot percentage" />
+      <symbol value="Force measurement" />
+      <symbol value="Vibration" />
+      <symbol value="Condenser vacuum, Generator Power, Temperature, Fluid Pressure" />
+      <symbol value="Error" />
+      <symbol value="Corresponding cycle number, Voltage" />
+      <symbol value="Peak voltage of receiving end under adjustment state, Peak voltage of receiving end under shunting state" />
+      <symbol value="Condenser vacuum, Generator Power, Temperature, Flid ressr" />
+      <symbol value="Frequency, Spinning speed, Acceleration" />
+      <symbol value="Condenser vacuum, Generator Power, Temperature" />
+      <symbol value="Temperature, Voltage, Current, Time" />
+      <symbol value="Condenser vacuum, Generator Power, Temperature, Fluid Pressur" />
+      <symbol value="Exchange current density, Equilibrium potential" />
+      <symbol value="Acustic, Load" />
+      <symbol value="Spinning speed, Modeled values" />
+      <symbol value="Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed" />
+      <symbol value="Temperature, Preassure (fluids), Spinning speed, Baypass ratio, Coolant bleed" />
+<fct name="inputTypeFct" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Loss of active materials of the positive electrode , Loss of active materials of the negative electrode, Loss of lithium inventory">
+</qsym>
+<qsym name="Battery capacity degradation data">
+</qsym>
+<qsym name="Temperature, Current, Deformation">
+</qsym>
+<qsym name="Free text logs">
+</qsym>
+<qsym name="Compressor Temperature, Compressor Pressure, Turbine Temperature, Turbine Pressure, Shaft speed, Altitude, Mach Number, Fuel flow">
+</qsym>
+<qsym name="Frequency center, Frequency variance, Mean square frequency">
+</qsym>
+<qsym name="Current, Voltage">
+</qsym>
+<qsym name="Temperature, Fluid Pressure, Flow rates, Electric signals">
+</qsym>
+<qsym name="Temperature, Fluid Pressure, Spinning speed">
+</qsym>
+<qsym name="Temperature, Preassure (fluids), Humidity, Power, Fuel flow">
+</qsym>
+<qsym name="Condenser vacuum, Generator Power, Temperature, Fluid ressr">
+</qsym>
+<qsym name="Unknown variable">
+</qsym>
+<qsym name="Health index">
+</qsym>
+<qsym name="Gyroscope drift">
+</qsym>
+<qsym name="Load , Frequency, Data points (x,y), Geometric parameter (S)">
+</qsym>
+<qsym name="Capacitator impedance frecuency response">
+</qsym>
+<qsym name="Temperature, Flow rates">
+</qsym>
+<qsym name="Distance, Degradation speed">
+</qsym>
+<qsym name="Resistance, Degradation rate">
+</qsym>
+<qsym name="Spinning speed, Torque, Current">
+</qsym>
+<qsym name="Temperature, Electrical resistance">
+</qsym>
+<qsym name="Temperature, Pressure, Spinning Speed">
+</qsym>
+<qsym name="wind power">
+</qsym>
+<qsym name="Thickness irregularities">
+</qsym>
+<qsym name="Time, Resistance">
+</qsym>
+<qsym name="gyroscope drift">
+</qsym>
+<qsym name="Current">
+</qsym>
+<qsym name="Diverse turbofan signals">
+</qsym>
+<qsym name="Health index, Crack length">
+</qsym>
+<qsym name="Voltage, Impedance, Current, Temperature">
+</qsym>
+<qsym name="Thermal conductivity, Coefficient of heat transfer, Degree of blackness">
+</qsym>
+<qsym name="Flank wear width, Cutting force">
+</qsym>
+<qsym name="Temperature, Voltage">
+</qsym>
+<qsym name="Operating time in days, Operating time in motor-hours, Viscosity, ignition point, Total Base Number, Anti-oxidation particles percentage, Anti-wear Particles percentage, Elements ppm, Sulphating products percentage, Soot percentage">
+</qsym>
+<qsym name="Battery capacity">
+</qsym>
+<qsym name="Voltage, Current">
+</qsym>
+<qsym name="Flow rates, efficiency">
+</qsym>
+<qsym name="Open circuit voltage, State of charge, Current, Diffusion voltage">
+</qsym>
+<qsym name="Condenser vacuum, Generaor Power, Tmperature">
+</qsym>
+<qsym name="Equipment effectiveness, Down time, Scrap rate">
+</qsym>
+<qsym name="Info vector">
+</qsym>
+<qsym name="Rotor speed, Vibration, Aircraft Maneuvers">
+</qsym>
+<qsym name="Results of a fault detection method ">
+</qsym>
+<qsym name="N dimensional feature vector">
+</qsym>
+<qsym name="Temperature, Fluid Pressure, Spinning speed, Baypass ratio">
+</qsym>
+<qsym name="Flow rate, Average pressure change ">
+</qsym>
+<qsym name="Steam mass flow, Flue gas temperature, Tube thickness">
+</qsym>
+<qsym name="Pressure drop, Volumetric flow rate, Cake thickness, Porosity">
+</qsym>
+<qsym name="Vibration level">
+</qsym>
+<qsym name="Temperature, Fluid Pressure, Humidity, Power, Fuel flow">
+</qsym>
+<qsym name="Corresponding cycle number, Battery capacity">
+</qsym>
+<qsym name="Capacitance, Degradation rate">
+</qsym>
+<qsym name="Voltage at discharge, Battery capacity">
+</qsym>
+<qsym name="Current crack depth">
+</qsym>
+<qsym name="Corresponding time, Force measurement">
+</qsym>
+<qsym name="Temperature, Preassure (fluids), Spinning speed, Baypass ratio">
+</qsym>
+<qsym name="Mechanical stresses, Life cycles, Mechanical Pressure, Elastic strains, Plastic strains">
+</qsym>
+<qsym name="Frequency">
+</qsym>
+<qsym name="Relative Luminosity">
+</qsym>
+<qsym name="Measurement vector, Control input vector">
+</qsym>
+<qsym name="Acceleration">
+</qsym>
+<qsym name="energy, hits">
+</qsym>
+<qsym name="Voltage, Current, Impedance, Temperature">
+</qsym>
+<qsym name="Temperature, Acustic, Spinning speed, Humidity, Current">
+</qsym>
+<qsym name="Energy, Hits">
+</qsym>
+<qsym name="Condenser vacuum, Generator Power, Tmperature">
+</qsym>
+<qsym name="Physical fan speed, Corrected fan speed">
+</qsym>
+<qsym name="Acustic signal">
+</qsym>
+<qsym name="Loss of active materials (LAMs) of the positive electrode  , Loss of active materials (LAMs) of the negative electrode, Loss of lithium inventory (LLI)">
+</qsym>
+<qsym name="Temperature, Preassure (fluids), Flow rates, Electric signals">
+</qsym>
+<qsym name="Compressor Flow Rate, Compressor Voltage, Load Torque, Compressor Motor Torque, Molar mass nitrogen, Molar mass oxygen, Lumped volume of cathode, FC stack temperature">
+</qsym>
+<qsym name="degradation">
+</qsym>
+<qsym name="Frequency center, Frequency variance, Mean square frequency, Maximum contact stress, Maximum bending stress, Number of gear meshing">
+</qsym>
+<qsym name="Condenser vacuum, Tmperature">
+</qsym>
+<qsym name="Spinning speed, Distance, Time">
+</qsym>
+<qsym name="Mechanical stresses, Life cycles, Preassure (solid mechanics), Elastic strains, Plastic strains">
+</qsym>
+<qsym name="Real infrared thermography data">
+</qsym>
+<qsym name="Peak-to-Peak, Maximum peak value, Root mean square, Kurtosis, Skewness, Mutual information, Entropy, Arithmetic mean of PSD, Line integral, Autoregressive model, Energy">
+</qsym>
+<qsym name="Acustic features, Current">
+</qsym>
+<qsym name="Weighted minimum quantization">
+</qsym>
+<qsym name="Modelling error">
+</qsym>
+<qsym name="Temporal dependencies , Spatial dependencies ">
+</qsym>
+<qsym name="Acceleration, Frequency, Vibrations">
+</qsym>
+<qsym name="Mechanical stresses, Temperature, Voltage, Impurities">
+</qsym>
+<qsym name="Not specified others">
+</qsym>
+<qsym name="In-line oil debris, Vibration Analysis MEMS">
+</qsym>
+<qsym name="Peak to peak of ripple voltaje, Ripple factor">
+</qsym>
+<qsym name="Temperature, Static pressure, Total Pressure">
+</qsym>
+<qsym name="Contamination level, Not specified others">
+</qsym>
+<qsym name="Health index, Model , Number of cycles">
+</qsym>
+<qsym name="Imbalance source vector , Cracked source shaft vector ">
+</qsym>
+<qsym name="Wind power">
+</qsym>
+<qsym name="Temperature, Vibration">
+</qsym>
+<qsym name="Temperature">
+</qsym>
+<qsym name="Temperature, Humidity, Current, Time">
+</qsym>
+<qsym name="Weighted minimum quantization error">
+</qsym>
+<qsym name="Temperature, Flow rate">
+</qsym>
+<qsym name="Time">
+</qsym>
+<qsym name="Temperature, Preassure (fluids), Spinning speed">
+</qsym>
+<qsym name="Exhaust gas temperature margin">
+</qsym>
+<qsym name="Vibrations">
+</qsym>
+<qsym name="Condenser vacuum, Generator Power, Temperature, Preassure (fluids)">
+</qsym>
+<qsym name="Traffic volume">
+</qsym>
+<qsym name="Temperature, Voltage, Current, Power">
+</qsym>
+<qsym name="Voltage">
+</qsym>
+<qsym name="Load , Frequency, Data points, Geometric parameter (S)">
+</qsym>
+<qsym name="Condenser vacuum, Generator Power, Temperature, Fluid Pressr">
+</qsym>
+<qsym name="Voltage, Current, Temperature">
+</qsym>
+<qsym name="Operating time in days, Operating time in motor-hours, Viscosity, ignition point, Total Base Number, Anti-oxidation particles percentage, Anti-wear Particles percentage, Elements ppm (Fe, Cr, Pb, Cu, Na, NP, Mo), Sulphating products percentage, Soot percentage">
+</qsym>
+<qsym name="Force measurement">
+</qsym>
+<qsym name="Vibration">
+</qsym>
+<qsym name="Condenser vacuum, Generator Power, Temperature, Fluid Pressure">
+</qsym>
+<qsym name="Error">
+</qsym>
+<qsym name="Corresponding cycle number, Voltage">
+</qsym>
+<qsym name="Peak voltage of receiving end under adjustment state, Peak voltage of receiving end under shunting state">
+</qsym>
+<qsym name="Condenser vacuum, Generator Power, Temperature, Flid ressr">
+</qsym>
+<qsym name="Frequency, Spinning speed, Acceleration">
+</qsym>
+<qsym name="Condenser vacuum, Generator Power, Temperature">
+</qsym>
+<qsym name="Temperature, Voltage, Current, Time">
+</qsym>
+<qsym name="Condenser vacuum, Generator Power, Temperature, Fluid Pressur">
+</qsym>
+<qsym name="Exchange current density, Equilibrium potential">
+</qsym>
+<qsym name="Acustic, Load">
+</qsym>
+<qsym name="Spinning speed, Modeled values">
+</qsym>
+<qsym name="Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed">
+</qsym>
+<qsym name="Temperature, Preassure (fluids), Spinning speed, Baypass ratio, Coolant bleed">
+</qsym>
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Loss of active materials of the positive electrode , Loss of active materials of the negative electrode, Loss of lithium inventory">
+</qsym>
+<qsym name="Battery capacity degradation data">
+</qsym>
+<qsym name="Temperature, Current, Deformation">
+</qsym>
+<qsym name="Free text logs">
+</qsym>
+<qsym name="Compressor Temperature, Compressor Pressure, Turbine Temperature, Turbine Pressure, Shaft speed, Altitude, Mach Number, Fuel flow">
+</qsym>
+<qsym name="Frequency center, Frequency variance, Mean square frequency">
+</qsym>
+<qsym name="Current, Voltage">
+</qsym>
+<qsym name="Temperature, Fluid Pressure, Flow rates, Electric signals">
+</qsym>
+<qsym name="Temperature, Fluid Pressure, Spinning speed">
+</qsym>
+<qsym name="Temperature, Preassure (fluids), Humidity, Power, Fuel flow">
+</qsym>
+<qsym name="Condenser vacuum, Generator Power, Temperature, Fluid ressr">
+</qsym>
+<qsym name="Unknown variable">
+</qsym>
+<qsym name="Health index">
+</qsym>
+<qsym name="Gyroscope drift">
+</qsym>
+<qsym name="Load , Frequency, Data points (x,y), Geometric parameter (S)">
+</qsym>
+<qsym name="Capacitator impedance frecuency response">
+</qsym>
+<qsym name="Temperature, Flow rates">
+</qsym>
+<qsym name="Distance, Degradation speed">
+</qsym>
+<qsym name="Resistance, Degradation rate">
+</qsym>
+<qsym name="Spinning speed, Torque, Current">
+</qsym>
+<qsym name="Temperature, Electrical resistance">
+</qsym>
+<qsym name="Temperature, Pressure, Spinning Speed">
+</qsym>
+<qsym name="wind power">
+</qsym>
+<qsym name="Thickness irregularities">
+</qsym>
+<qsym name="Time, Resistance">
+</qsym>
+<qsym name="gyroscope drift">
+</qsym>
+<qsym name="Current">
+</qsym>
+<qsym name="Diverse turbofan signals">
+</qsym>
+<qsym name="Health index, Crack length">
+</qsym>
+<qsym name="Voltage, Impedance, Current, Temperature">
+</qsym>
+<qsym name="Thermal conductivity, Coefficient of heat transfer, Degree of blackness">
+</qsym>
+<qsym name="Flank wear width, Cutting force">
+</qsym>
+<qsym name="Temperature, Voltage">
+</qsym>
+<qsym name="Operating time in days, Operating time in motor-hours, Viscosity, ignition point, Total Base Number, Anti-oxidation particles percentage, Anti-wear Particles percentage, Elements ppm, Sulphating products percentage, Soot percentage">
+</qsym>
+<qsym name="Battery capacity">
+</qsym>
+<qsym name="Voltage, Current">
+</qsym>
+<qsym name="Flow rates, efficiency">
+</qsym>
+<qsym name="Open circuit voltage, State of charge, Current, Diffusion voltage">
+</qsym>
+<qsym name="Condenser vacuum, Generaor Power, Tmperature">
+</qsym>
+<qsym name="Equipment effectiveness, Down time, Scrap rate">
+</qsym>
+<qsym name="Info vector">
+</qsym>
+<qsym name="Rotor speed, Vibration, Aircraft Maneuvers">
+</qsym>
+<qsym name="Results of a fault detection method ">
+</qsym>
+<qsym name="N dimensional feature vector">
+</qsym>
+<qsym name="Temperature, Fluid Pressure, Spinning speed, Baypass ratio">
+</qsym>
+<qsym name="Flow rate, Average pressure change ">
+</qsym>
+<qsym name="Steam mass flow, Flue gas temperature, Tube thickness">
+</qsym>
+<qsym name="Pressure drop, Volumetric flow rate, Cake thickness, Porosity">
+</qsym>
+<qsym name="Vibration level">
+</qsym>
+<qsym name="Temperature, Fluid Pressure, Humidity, Power, Fuel flow">
+</qsym>
+<qsym name="Corresponding cycle number, Battery capacity">
+</qsym>
+<qsym name="Capacitance, Degradation rate">
+</qsym>
+<qsym name="Voltage at discharge, Battery capacity">
+</qsym>
+<qsym name="Current crack depth">
+</qsym>
+<qsym name="Corresponding time, Force measurement">
+</qsym>
+<qsym name="Temperature, Preassure (fluids), Spinning speed, Baypass ratio">
+</qsym>
+<qsym name="Mechanical stresses, Life cycles, Mechanical Pressure, Elastic strains, Plastic strains">
+</qsym>
+<qsym name="Frequency">
+</qsym>
+<qsym name="Relative Luminosity">
+</qsym>
+<qsym name="Measurement vector, Control input vector">
+</qsym>
+<qsym name="Acceleration">
+</qsym>
+<qsym name="energy, hits">
+</qsym>
+<qsym name="Voltage, Current, Impedance, Temperature">
+</qsym>
+<qsym name="Temperature, Acustic, Spinning speed, Humidity, Current">
+</qsym>
+<qsym name="Energy, Hits">
+</qsym>
+<qsym name="Condenser vacuum, Generator Power, Tmperature">
+</qsym>
+<qsym name="Physical fan speed, Corrected fan speed">
+</qsym>
+<qsym name="Acustic signal">
+</qsym>
+<qsym name="Loss of active materials (LAMs) of the positive electrode  , Loss of active materials (LAMs) of the negative electrode, Loss of lithium inventory (LLI)">
+</qsym>
+<qsym name="Temperature, Preassure (fluids), Flow rates, Electric signals">
+</qsym>
+<qsym name="Compressor Flow Rate, Compressor Voltage, Load Torque, Compressor Motor Torque, Molar mass nitrogen, Molar mass oxygen, Lumped volume of cathode, FC stack temperature">
+</qsym>
+<qsym name="degradation">
+</qsym>
+<qsym name="Frequency center, Frequency variance, Mean square frequency, Maximum contact stress, Maximum bending stress, Number of gear meshing">
+</qsym>
+<qsym name="Condenser vacuum, Tmperature">
+</qsym>
+<qsym name="Spinning speed, Distance, Time">
+</qsym>
+<qsym name="Mechanical stresses, Life cycles, Preassure (solid mechanics), Elastic strains, Plastic strains">
+</qsym>
+<qsym name="Real infrared thermography data">
+</qsym>
+<qsym name="Peak-to-Peak, Maximum peak value, Root mean square, Kurtosis, Skewness, Mutual information, Entropy, Arithmetic mean of PSD, Line integral, Autoregressive model, Energy">
+</qsym>
+<qsym name="Acustic features, Current">
+</qsym>
+<qsym name="Weighted minimum quantization">
+</qsym>
+<qsym name="Modelling error">
+</qsym>
+<qsym name="Temporal dependencies , Spatial dependencies ">
+</qsym>
+<qsym name="Acceleration, Frequency, Vibrations">
+</qsym>
+<qsym name="Mechanical stresses, Temperature, Voltage, Impurities">
+</qsym>
+<qsym name="Not specified others">
+</qsym>
+<qsym name="In-line oil debris, Vibration Analysis MEMS">
+</qsym>
+<qsym name="Peak to peak of ripple voltaje, Ripple factor">
+</qsym>
+<qsym name="Temperature, Static pressure, Total Pressure">
+</qsym>
+<qsym name="Contamination level, Not specified others">
+</qsym>
+<qsym name="Health index, Model , Number of cycles">
+</qsym>
+<qsym name="Imbalance source vector , Cracked source shaft vector ">
+</qsym>
+<qsym name="Wind power">
+</qsym>
+<qsym name="Temperature, Vibration">
+</qsym>
+<qsym name="Temperature">
+</qsym>
+<qsym name="Temperature, Humidity, Current, Time">
+</qsym>
+<qsym name="Weighted minimum quantization error">
+</qsym>
+<qsym name="Temperature, Flow rate">
+</qsym>
+<qsym name="Time">
+</qsym>
+<qsym name="Temperature, Preassure (fluids), Spinning speed">
+</qsym>
+<qsym name="Exhaust gas temperature margin">
+</qsym>
+<qsym name="Vibrations">
+</qsym>
+<qsym name="Condenser vacuum, Generator Power, Temperature, Preassure (fluids)">
+</qsym>
+<qsym name="Traffic volume">
+</qsym>
+<qsym name="Temperature, Voltage, Current, Power">
+</qsym>
+<qsym name="Voltage">
+</qsym>
+<qsym name="Load , Frequency, Data points, Geometric parameter (S)">
+</qsym>
+<qsym name="Condenser vacuum, Generator Power, Temperature, Fluid Pressr">
+</qsym>
+<qsym name="Voltage, Current, Temperature">
+</qsym>
+<qsym name="Operating time in days, Operating time in motor-hours, Viscosity, ignition point, Total Base Number, Anti-oxidation particles percentage, Anti-wear Particles percentage, Elements ppm (Fe, Cr, Pb, Cu, Na, NP, Mo), Sulphating products percentage, Soot percentage">
+</qsym>
+<qsym name="Force measurement">
+</qsym>
+<qsym name="Vibration">
+</qsym>
+<qsym name="Condenser vacuum, Generator Power, Temperature, Fluid Pressure">
+</qsym>
+<qsym name="Error">
+</qsym>
+<qsym name="Corresponding cycle number, Voltage">
+</qsym>
+<qsym name="Peak voltage of receiving end under adjustment state, Peak voltage of receiving end under shunting state">
+</qsym>
+<qsym name="Condenser vacuum, Generator Power, Temperature, Flid ressr">
+</qsym>
+<qsym name="Frequency, Spinning speed, Acceleration">
+</qsym>
+<qsym name="Condenser vacuum, Generator Power, Temperature">
+</qsym>
+<qsym name="Temperature, Voltage, Current, Time">
+</qsym>
+<qsym name="Condenser vacuum, Generator Power, Temperature, Fluid Pressur">
+</qsym>
+<qsym name="Exchange current density, Equilibrium potential">
+</qsym>
+<qsym name="Acustic, Load">
+</qsym>
+<qsym name="Spinning speed, Modeled values">
+</qsym>
+<qsym name="Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed">
+</qsym>
+<qsym name="Temperature, Preassure (fluids), Spinning speed, Baypass ratio, Coolant bleed">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Model Approach" type="Symbol" mult="false" >
+      <symbol value="Multi model" />
+      <symbol value="Single model" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Multi model">
+</qsym>
+<qsym name="Single model">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Model Type" type="Symbol" mult="true" >
+      <symbol value="Physics-based, Multiple-data-driven" />
+      <symbol value="Physics-based,Knowledge-based" />
+      <symbol value="Physics-based,Multiple-data-driven" />
+      <symbol value=" Knowledge-based" />
+      <symbol value="Data-driven, Physics-based" />
+      <symbol value="Data-driven,Multiple-data-driven" />
+      <symbol value="Multiple-physics-based" />
+      <symbol value="Multiple-physics-based, Data-driven" />
+      <symbol value="Data-driven, Multiple-physics-based" />
+      <symbol value="Multiple-physics-based,Data-driven" />
+      <symbol value="Data-driven, Multiple-physics-based, Knowledge-based" />
+      <symbol value="Physics-based, Physics-based, Data-driven" />
+      <symbol value=" Data-driven" />
+      <symbol value="Knowledge-based,Data-driven" />
+      <symbol value="Multiple-knowledge-based" />
+      <symbol value="Data-driven, Data-driven" />
+      <symbol value="Physics-based, Data-driven, Data-driven, Physics-based" />
+      <symbol value=" Multiple-physics-based" />
+      <symbol value="Data-driven, Data-driven, Physics-based, Physics-based" />
+      <symbol value="Data-driven,Physics-based" />
+      <symbol value="Knowledge-based, Data-driven, Data-driven" />
+      <symbol value="Physics-based, Data-driven, Physics-based" />
+      <symbol value="Unknown model type" />
+      <symbol value="Physics-based, Knowledge-based" />
+      <symbol value="Physics-based" />
+      <symbol value="Data-driven, Multiple-data-driven" />
+      <symbol value="Knowledge-based" />
+      <symbol value=" Physics-based" />
+      <symbol value="Data-driven,Multiple-physics-based,Knowledge-based" />
+      <symbol value="Data-driven,Knowledge-based" />
+      <symbol value="Multiple-data-driven" />
+      <symbol value="Physics-based,Data-driven" />
+      <symbol value="Data-driven,Multiple-physics-based" />
+      <symbol value="Knowledge-based, Data-driven" />
+      <symbol value="Data-driven" />
+      <symbol value=" Multiple-data-driven" />
+      <symbol value="Data-driven, Physics-based, Physics-based" />
+      <symbol value="Physics-based, Data-driven" />
+      <symbol value="Data-driven, Knowledge-based" />
+      <symbol value="Data-driven, Physics-based,Physics-based, Knowledge-based" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Physics-based, Multiple-data-driven">
+</qsym>
+<qsym name="Physics-based,Knowledge-based">
+</qsym>
+<qsym name="Physics-based,Multiple-data-driven">
+</qsym>
+<qsym name=" Knowledge-based">
+</qsym>
+<qsym name="Data-driven, Physics-based">
+</qsym>
+<qsym name="Data-driven,Multiple-data-driven">
+</qsym>
+<qsym name="Multiple-physics-based">
+</qsym>
+<qsym name="Multiple-physics-based, Data-driven">
+</qsym>
+<qsym name="Data-driven, Multiple-physics-based">
+</qsym>
+<qsym name="Multiple-physics-based,Data-driven">
+</qsym>
+<qsym name="Data-driven, Multiple-physics-based, Knowledge-based">
+</qsym>
+<qsym name="Physics-based, Physics-based, Data-driven">
+</qsym>
+<qsym name=" Data-driven">
+</qsym>
+<qsym name="Knowledge-based,Data-driven">
+</qsym>
+<qsym name="Multiple-knowledge-based">
+</qsym>
+<qsym name="Data-driven, Data-driven">
+</qsym>
+<qsym name="Physics-based, Data-driven, Data-driven, Physics-based">
+</qsym>
+<qsym name=" Multiple-physics-based">
+</qsym>
+<qsym name="Data-driven, Data-driven, Physics-based, Physics-based">
+</qsym>
+<qsym name="Data-driven,Physics-based">
+</qsym>
+<qsym name="Knowledge-based, Data-driven, Data-driven">
+</qsym>
+<qsym name="Physics-based, Data-driven, Physics-based">
+</qsym>
+<qsym name="Unknown model type">
+</qsym>
+<qsym name="Physics-based, Knowledge-based">
+</qsym>
+<qsym name="Physics-based">
+</qsym>
+<qsym name="Data-driven, Multiple-data-driven">
+</qsym>
+<qsym name="Knowledge-based">
+</qsym>
+<qsym name=" Physics-based">
+</qsym>
+<qsym name="Data-driven,Multiple-physics-based,Knowledge-based">
+</qsym>
+<qsym name="Data-driven,Knowledge-based">
+</qsym>
+<qsym name="Multiple-data-driven">
+</qsym>
+<qsym name="Physics-based,Data-driven">
+</qsym>
+<qsym name="Data-driven,Multiple-physics-based">
+</qsym>
+<qsym name="Knowledge-based, Data-driven">
+</qsym>
+<qsym name="Data-driven">
+</qsym>
+<qsym name=" Multiple-data-driven">
+</qsym>
+<qsym name="Data-driven, Physics-based, Physics-based">
+</qsym>
+<qsym name="Physics-based, Data-driven">
+</qsym>
+<qsym name="Data-driven, Knowledge-based">
+</qsym>
+<qsym name="Data-driven, Physics-based,Physics-based, Knowledge-based">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Number of failure modes" type="Symbol" mult="false" >
+      <symbol value="11" />
+      <symbol value="1" />
+      <symbol value="2" />
+      <symbol value="3" />
+      <symbol value="4" />
+      <symbol value="5" />
+      <symbol value="6" />
+      <symbol value="7" />
+      <symbol value="9" />
+      <symbol value="21" />
+      <symbol value="10" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="11">
+</qsym>
+<qsym name="1">
+</qsym>
+<qsym name="2">
+</qsym>
+<qsym name="3">
+</qsym>
+<qsym name="4">
+</qsym>
+<qsym name="5">
+</qsym>
+<qsym name="6">
+</qsym>
+<qsym name="7">
+</qsym>
+<qsym name="9">
+</qsym>
+<qsym name="21">
+</qsym>
+<qsym name="10">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Models" type="String" mult="true" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Data Pre-processing" type="Symbol" mult="false" >
+      <symbol value="No" />
+      <symbol value="yes" />
+      <symbol value="Yes" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="No">
+</qsym>
+<qsym name="yes">
+</qsym>
+<qsym name="Yes">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Performance" type="String" mult="true" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Number of input variables" type="Symbol" mult="false" >
+      <symbol value="22" />
+      <symbol value="11" />
+      <symbol value="14" />
+      <symbol value="26" />
+      <symbol value="15" />
+      <symbol value="16" />
+      <symbol value="17" />
+      <symbol value="1" />
+      <symbol value="2" />
+      <symbol value="3" />
+      <symbol value="4" />
+      <symbol value="5" />
+      <symbol value="6" />
+      <symbol value="7" />
+      <symbol value="8" />
+      <symbol value="21" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="22">
+</qsym>
+<qsym name="11">
+</qsym>
+<qsym name="14">
+</qsym>
+<qsym name="26">
+</qsym>
+<qsym name="15">
+</qsym>
+<qsym name="16">
+</qsym>
+<qsym name="17">
+</qsym>
+<qsym name="1">
+</qsym>
+<qsym name="2">
+</qsym>
+<qsym name="3">
+</qsym>
+<qsym name="4">
+</qsym>
+<qsym name="5">
+</qsym>
+<qsym name="6">
+</qsym>
+<qsym name="7">
+</qsym>
+<qsym name="8">
+</qsym>
+<qsym name="21">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Complementary notes" type="String" mult="true" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <amalgam name="euclidean" type="EUCLIDEAN" active="true" >
+      <entry name="Task" active="true" fct="taskFct" weight="1.0"/>
+      <entry name="Online/Off-line" active="true" fct="onlineOfflineFct" weight="1.0"/>
+      <entry name="Publication identifier" active="true" fct="default function" weight="0.0"/>
+      <entry name="Reference" active="true" fct="default function" weight="0.0"/>
+      <entry name="Case study type" active="true" fct="caseStudyTypeFct" weight="1.0"/>
+      <entry name="Input for the model" active="true" fct="default function" weight="1.0"/>
+      <entry name="Study title" active="true" fct="default function" weight="0.0"/>
+      <entry name="Case study" active="true" fct="caseStudyFct" weight="0.0"/>
+      <entry name="Performance indicator" active="true" fct="default function" weight="0.0"/>
+      <entry name="Publication Year" active="true" fct="yearFct" weight="1.0"/>
+      <entry name="Input type" active="true" fct="inputTypeFct" weight="0.0"/>
+      <entry name="Model Approach" active="true" fct="default function" weight="0.0"/>
+      <entry name="Model Type" active="true" fct="default function" weight="0.0"/>
+      <entry name="Number of failure modes" active="true" fct="default function" weight="0.0"/>
+      <entry name="Models" active="true" fct="default function" weight="0.0"/>
+      <entry name="Data Pre-processing" active="true" fct="default function" weight="0.0"/>
+      <entry name="Performance" active="true" fct="default function" weight="0.0"/>
+      <entry name="Number of input variables" active="true" fct="default function" weight="0.0"/>
+      <entry name="Complementary notes" active="true" fct="default function" weight="0.0"/>
+    </amalgam>
+    <amalgam name="weighted sum" type="WEIGHTED_SUM" active="false" >
+      <entry name="Task" active="true" fct="taskFct" weight="1.0"/>
+      <entry name="Online/Off-line" active="true" fct="onlineOfflineFct" weight="1.0"/>
+      <entry name="Publication identifier" active="true" fct="default function" weight="0.0"/>
+      <entry name="Reference" active="true" fct="default function" weight="0.0"/>
+      <entry name="Case study type" active="true" fct="caseStudyTypeFct" weight="1.0"/>
+      <entry name="Input for the model" active="true" fct="default function" weight="1.0"/>
+      <entry name="Study title" active="true" fct="default function" weight="0.0"/>
+      <entry name="Case study" active="true" fct="caseStudyFct" weight="0.0"/>
+      <entry name="Performance indicator" active="true" fct="default function" weight="0.0"/>
+      <entry name="Publication Year" active="true" fct="yearFct" weight="1.0"/>
+      <entry name="Input type" active="true" fct="inputTypeFct" weight="0.0"/>
+      <entry name="Model Approach" active="true" fct="default function" weight="0.0"/>
+      <entry name="Model Type" active="true" fct="default function" weight="0.0"/>
+      <entry name="Number of failure modes" active="true" fct="default function" weight="0.0"/>
+      <entry name="Models" active="true" fct="default function" weight="0.0"/>
+      <entry name="Data Pre-processing" active="true" fct="default function" weight="0.0"/>
+      <entry name="Performance" active="true" fct="default function" weight="0.0"/>
+      <entry name="Number of input variables" active="true" fct="default function" weight="0.0"/>
+      <entry name="Complementary notes" active="true" fct="default function" weight="0.0"/>
+    </amalgam>
+  </concept>
+</model>
+<hierarchy>
+  <fct name="default function" type="Taxonomy" mt="PARTNER_QUERY" r="REUSE" t="MAX" qconfig="INNER_NODES_ANY" cconfig="INNER_NODES_ANY" top="inheritanceDesc" sim="0.0" symm="true" >
+    <node name="Case" sim="1.0" parent="inheritanceDesc" />
+  </fct>
+</hierarchy>
+<cases no="263" cb="MaintCB"/>
+</Project>
