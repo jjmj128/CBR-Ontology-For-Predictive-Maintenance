@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2021-03-01/TimeOntology" uri="TimeOntology.ttl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2021-03-01/ArtifactOntology" uri="ArtifactOntology.ttl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2021-03-01/ExtendedRelationOntology" uri="ExtendedRelationOntology.ttl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/2021-03-01/ROImport" uri="ro-import.ttl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2021-03-01/GeospatialOntology" uri="GeospatialOntology.ttl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl" uri="http://purl.obolibrary.org/obo/bfo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2021-03-01/InformationEntityOntology" uri="InformationEntityOntology.ttl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2021-03-01/EventOntology" uri="EventOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/TimeOntology" uri="TimeOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ROImport" uri="ro-import.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ExtendedRelationOntology" uri="ExtendedRelationOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/GeospatialOntology" uri="GeospatialOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology" uri="InformationEntityOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/InformationEntityOntology" uri="InformationEntityOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/InformationEntityOntology" uri="InformationEntityOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/EventOntology" uri="EventOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/ArtifactOntology" uri="ArtifactOntology.ttl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2019-12-20/InformationEntityOntology" uri="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2019-12-20/EventOntology" uri="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2019-12-20/ArtifactOntology" uri="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ArtifactOntology"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl" uri="file:/C:/Users/j.montero-jimenez/Desktop/ISAE/Doctorado/Ontology%20and%20CBR/Journal%20of%20Intelligent%20Manufacturing/OMSA/OMSA%20LOCAL%20IMPORTS/bfo.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1621339961615" name="http://www.ontologyrepository.com/CommonCoreOntologies/" uri="CCOmerged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1621339961615" name="duplicate:http://www.semanticweb.org/j.montero-jimenez/ontologies/2021/2/OPMAD" uri="OPMAD.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1621339961615" name="duplicate:http://www.semanticweb.org/j.montero-jimenez/ontologies/2021/2/OPMAD" uri="OPMADdatabase.owl"/>
+    </group>
+</catalog>

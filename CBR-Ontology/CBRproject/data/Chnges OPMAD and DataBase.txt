@@ -1,0 +1,13 @@
+OPMAD:
+Saving in XML/RDF syntax instead of OWL/RDF syntax.
+Maintenable item corrected name.
+Added Health modelling, subclasses one step and multisteps future forecast.
+Added Data variable as a descriptive ICE and the subclasses with the code.
+Added subclases tu Predictive maintenance model with the code.
+Name chnaged to special properties has double value, has integer value...etc.
+
+DataBase:
+Health modelling=Degradation modelling.
+Lost of lithium inventory=Lost of lithium inventory (LLI).
+Elements ppm (Fe, Cr, Pb, Cu, Na, NP, Mo)=Elements ppm.
+Added blank space to empty cell in column article identifier.

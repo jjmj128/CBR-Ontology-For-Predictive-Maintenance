@@ -1,0 +1,561 @@
+Task;w1;Case study type;w2;Case study;w3;Online/Off-line;w4;Input for the model;w5;Input type;w6;Number of cases to retrieve;Amalgamation function
+Remaining useful life estimation;1;Rotary machines;1;;1;;1;;1;;1;5;euclidean
+Fault identification;1;Rotary machines;1;;1;;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;;1;;1;;1;5;euclidean
+Fault detection;1;Rotary machines;1;;1;;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;;1;;1;;1;5;euclidean
+Fault detection;1;Pipelines and ducts;1;;1;;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Structures;1;;1;;1;;1;;1;5;euclidean
+Fault identification;1;Rotary machines;1;;1;;1;;1;;1;5;euclidean
+Fault identification;1;Rotary machines;1;;1;;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;Railway track geometry;1;;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;Rolling bearings;1;;1;;1;;1;5;euclidean
+Fault identification;1;;1;Rectifier in railway electrical traction systems;1;;1;;1;;1;5;euclidean
+Multiple steps future state forecast;1;;1;Simulated jet-engines data;1;;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;Rolling bearings;1;;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;Oil condition;1;;1;;1;;1;5;euclidean
+Multiple steps future state forecast;1;;1;Lithium-ion battery;1;;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;Oil condition;1;;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;2008 IEEE PHM challenge problem;1;;1;;1;;1;5;euclidean
+Health modelling;1;;1;Engine;1;;1;;1;;1;5;euclidean
+Health modelling;1;;1;;1;Off-line;1;;1;;1;5;euclidean
+Multiple steps future state forecast;1;;1;;1;Off-line;1;;1;;1;5;euclidean
+Health modelling;1;;1;;1;Online;1;;1;;1;5;euclidean
+Fault detection;1;;1;;1;Off-line;1;;1;;1;5;euclidean
+Multiple steps future state forecast;1;;1;;1;Off-line;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Off-line;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Off-line;1;;1;;1;5;euclidean
+Health modelling;1;;1;;1;Off-line;1;;1;;1;5;euclidean
+Multiple steps future state forecast;1;;1;;1;Off-line;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Online;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;;1;Time series;1;;1;5;euclidean
+Multiple steps future state forecast;1;;1;;1;;1;Time series;1;;1;5;euclidean
+Fault detection;1;;1;;1;;1;Time series;1;;1;5;euclidean
+Health modelling;1;;1;;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;;1;Time series;1;;1;5;euclidean
+One step future state forecast;1;;1;;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;;1;Signals;1;;1;5;euclidean
+Fault identification;1;;1;;1;;1;Signals;1;;1;5;euclidean
+Multiple steps future state forecast;1;;1;;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;;1;;1;Time, Resistance;1;5;euclidean
+Fault identification;1;;1;;1;;1;;1;Measurement vector, Control input vector;1;5;euclidean
+Fault detection;1;;1;;1;;1;;1;Wind power;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;;1;;1;Health index;1;5;euclidean
+Health modelling;1;;1;;1;;1;;1;Temperature, Fluid Pressure, Flow rates, Electric signals;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;;1;;1;Free text logs;1;5;euclidean
+Health assessment;1;;1;;1;;1;;1;energy, hits;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;;1;;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;;1;;1;Not specified others;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;;1;;1;Voltage, Impedance, Current, Temperature;1;5;euclidean
+;1;Lubricants;1;Oil condition;1;;1;;1;;1;5;euclidean
+;1;Rotary machines;1;Simulated jet-engines data;1;;1;;1;;1;5;euclidean
+;1;Rotary machines;1;Simulated jet-engines data;1;;1;;1;;1;5;euclidean
+;1;Rotary machines;1;Turbofan engine;1;;1;;1;;1;5;euclidean
+;1;Rotary machines;1;Steam Turbine;1;;1;;1;;1;5;euclidean
+;1;Energy cells and batteries;1;Lead-acid batteries;1;;1;;1;;1;5;euclidean
+;1;Electrical components;1;Railway track circuit;1;;1;;1;;1;5;euclidean
+;1;Rotary machines;1;Production plant machines;1;;1;;1;;1;5;euclidean
+;1;Rotary machines;1;Rolling bearings;1;;1;;1;;1;5;euclidean
+;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;;1;;1;5;euclidean
+;1;Rotary machines;1;;1;Online;1;;1;;1;5;euclidean
+;1;Electrical components;1;;1;Online;1;;1;;1;5;euclidean
+;1;Energy cells and batteries;1;;1;Online;1;;1;;1;5;euclidean
+;1;Rotary machines;1;;1;Off-line;1;;1;;1;5;euclidean
+;1;Rotary machines;1;;1;Online;1;;1;;1;5;euclidean
+;1;Rotary machines;1;;1;Off-line;1;;1;;1;5;euclidean
+;1;Rotary machines;1;;1;Off-line;1;;1;;1;5;euclidean
+;1;Rotary machines;1;;1;Off-line;1;;1;;1;5;euclidean
+;1;Energy cells and batteries;1;;1;Online;1;;1;;1;5;euclidean
+;1;Lubricants;1;;1;Off-line;1;;1;;1;5;euclidean
+;1;Energy cells and batteries;1;;1;;1;Time series;1;;1;5;euclidean
+;1;Electrical components;1;;1;;1;Signals;1;;1;5;euclidean
+;1;Energy cells and batteries;1;;1;;1;Time series;1;;1;5;euclidean
+;1;Energy cells and batteries;1;;1;;1;Time series;1;;1;5;euclidean
+;1;Energy cells and batteries;1;;1;;1;Time series;1;;1;5;euclidean
+;1;Lubricants;1;;1;;1;Time series;1;;1;5;euclidean
+;1;Electrical components;1;;1;;1;Signals;1;;1;5;euclidean
+;1;Energy cells and batteries;1;;1;;1;Time series;1;;1;5;euclidean
+;1;Rotary machines;1;;1;;1;Time series;1;;1;5;euclidean
+;1;Rotary machines;1;;1;;1;Time series;1;;1;5;euclidean
+;1;Rotary machines;1;;1;;1;;1;Acustic, Load;1;5;euclidean
+;1;Electrical components;1;;1;;1;;1;Capacitator impedance frecuency response;1;5;euclidean
+;1;Rotary machines;1;;1;;1;;1;Flank wear width, Cutting force;1;5;euclidean
+;1;Rotary machines;1;;1;;1;;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+;1;Structures;1;;1;;1;;1;energy, hits;1;5;euclidean
+;1;Energy cells and batteries;1;;1;;1;;1;Corresponding cycle number, Voltage;1;5;euclidean
+;1;Energy cells and batteries;1;;1;;1;;1;Voltage at discharge, Battery capacity;1;5;euclidean
+;1;Lubricants;1;;1;;1;;1;Operating time in days, Operating time in motor-hours, Viscosity, ignition point, Total Base Number, Anti-oxidation particles percentage, Anti-wear Particles percentage, Elements ppm, Sulphating products percentage, Soot percentage;1;5;euclidean
+;1;Electrical components;1;;1;;1;;1;Voltage, Current;1;5;euclidean
+;1;Energy cells and batteries;1;;1;;1;;1;Current, Voltage;1;5;euclidean
+;1;;1;Rotor shafts;1;Online;1;;1;;1;5;euclidean
+;1;;1;Lead-acid batteries;1;Off-line;1;;1;;1;5;euclidean
+;1;;1;Rolling bearings;1;Off-line;1;;1;;1;5;euclidean
+;1;;1;Lithium-ion battery;1;Online;1;;1;;1;5;euclidean
+;1;;1;Solenoid valves;1;Off-line;1;;1;;1;5;euclidean
+;1;;1;Continuous stirred-tank reactor (CSTR);1;Online;1;;1;;1;5;euclidean
+;1;;1;Dehumidifier;1;Off-line;1;;1;;1;5;euclidean
+;1;;1;Rolling bearings;1;Online;1;;1;;1;5;euclidean
+;1;;1;Proton exchange membrane fuel cell;1;Online;1;;1;;1;5;euclidean
+;1;;1;Simulated jet-engines data;1;Online;1;;1;;1;5;euclidean
+;1;;1;Rolling bearings;1;;1;Time series;1;;1;5;euclidean
+;1;;1;Simulated jet-engines data;1;;1;Time series;1;;1;5;euclidean
+;1;;1;Rolling bearings;1;;1;Time series;1;;1;5;euclidean
+;1;;1;Lithium-ion battery;1;;1;Time series;1;;1;5;euclidean
+;1;;1;Lithium-ion battery;1;;1;Time series;1;;1;5;euclidean
+;1;;1;Proton exchange membrane fuel cell;1;;1;Time series;1;;1;5;euclidean
+;1;;1;High-voltage asymmetrical pulse (HVAP) track circuit;1;;1;Time series;1;;1;5;euclidean
+;1;;1;Aircraft bearings;1;;1;Time series;1;;1;5;euclidean
+;1;;1;Wind turbines;1;;1;Time series;1;;1;5;euclidean
+;1;;1;Simulated jet-engines data;1;;1;Time series;1;;1;5;euclidean
+;1;;1;Engine;1;;1;;1;Temperature, Static pressure, Total Pressure;1;5;euclidean
+;1;;1;Rolling bearings;1;;1;;1;Vibrations;1;5;euclidean
+;1;;1;Aerial Bundled Cables;1;;1;;1;Real infrared thermography data;1;5;euclidean
+;1;;1;Metallurgical Ladles;1;;1;;1;Thermal conductivity, Coefficient of heat transfer, Degree of blackness;1;5;euclidean
+;1;;1;Vehicle suspension;1;;1;;1;degradation;1;5;euclidean
+;1;;1;Rolling bearings;1;;1;;1;Vibrations;1;5;euclidean
+;1;;1;Solenoid valves;1;;1;;1;Temperature, Electrical resistance;1;5;euclidean
+;1;;1;Lithium-ion battery;1;;1;;1;Not specified others;1;5;euclidean
+;1;;1;Rolling bearings;1;;1;;1;Acustic, Load;1;5;euclidean
+;1;;1;Lithium-ion battery;1;;1;;1;Battery capacity;1;5;euclidean
+;1;;1;;1;Off-line;1;Signals;1;;1;5;euclidean
+;1;;1;;1;Off-line;1;Signals;1;;1;5;euclidean
+;1;;1;;1;Both;1;Signals;1;;1;5;euclidean
+;1;;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;;1;;1;Online;1;Time series;1;;1;5;euclidean
+;1;;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;;1;;1;Off-line;1;Signals;1;;1;5;euclidean
+;1;;1;;1;Online;1;Time series;1;;1;5;euclidean
+;1;;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;;1;;1;Off-line;1;;1;Voltage;1;5;euclidean
+;1;;1;;1;Online;1;;1;Health index;1;5;euclidean
+;1;;1;;1;Off-line;1;;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+;1;;1;;1;Off-line;1;;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+;1;;1;;1;Off-line;1;;1;Operating time in days, Operating time in motor-hours, Viscosity, ignition point, Total Base Number, Anti-oxidation particles percentage, Anti-wear Particles percentage, Elements ppm, Sulphating products percentage, Soot percentage;1;5;euclidean
+;1;;1;;1;Off-line;1;;1;Temperature, Humidity, Current, Time;1;5;euclidean
+;1;;1;;1;Off-line;1;;1;Battery capacity;1;5;euclidean
+;1;;1;;1;Off-line;1;;1;Health index, Crack length;1;5;euclidean
+;1;;1;;1;Off-line;1;;1;Voltage, Current, Impedance, Temperature;1;5;euclidean
+;1;;1;;1;Off-line;1;;1;Voltage, Impedance, Current, Temperature;1;5;euclidean
+;1;;1;;1;;1;Time series;1;Battery capacity;1;5;euclidean
+;1;;1;;1;;1;Time series;1;Battery capacity;1;5;euclidean
+;1;;1;;1;;1;Time series;1;Health index;1;5;euclidean
+;1;;1;;1;;1;Time series;1;Pressure drop, Volumetric flow rate, Cake thickness, Porosity;1;5;euclidean
+;1;;1;;1;;1;Time series;1;Voltage;1;5;euclidean
+;1;;1;;1;;1;Time series;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+;1;;1;;1;;1;Time series;1;Not specified others;1;5;euclidean
+;1;;1;;1;;1;Time series;1;Acustic, Load;1;5;euclidean
+;1;;1;;1;;1;Signals;1;Flank wear width, Cutting force;1;5;euclidean
+;1;;1;;1;;1;Signals;1;Flank wear width, Cutting force;1;5;euclidean
+Multiple steps future state forecast;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;;1;;1;5;euclidean
+Fault identification;1;Energy cells and batteries;1;Proton exchange membrane fuel cell;1;;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Turbofan engine;1;;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Electrical components;1;Electrolytic capacitors ;1;;1;;1;;1;5;euclidean
+Fault feature extraction;1;Electrical components;1;Semiconductor manufacturing station;1;;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Electrical components;1;Actuator ;1;;1;;1;;1;5;euclidean
+Multiple steps future state forecast;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Rolling bearings;1;;1;;1;;1;5;euclidean
+Fault detection;1;Electrical components;1;Solenoid valves;1;;1;;1;;1;5;euclidean
+Multiple steps future state forecast;1;Energy cells and batteries;1;;1;Off-line;1;;1;;1;5;euclidean
+Fault identification;1;Electrical components;1;;1;Online;1;;1;;1;5;euclidean
+Fault detection;1;Rotary machines;1;;1;Online;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;Online;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Energy cells and batteries;1;;1;Off-line;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Energy cells and batteries;1;;1;Off-line;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;Online;1;;1;;1;5;euclidean
+Fault identification;1;Electrical components;1;;1;Off-line;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Energy cells and batteries;1;;1;Off-line;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;Off-line;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Electrical components;1;;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Structures;1;;1;;1;Time series;1;;1;5;euclidean
+Health modelling;1;Electrical components;1;;1;;1;Signals;1;;1;5;euclidean
+Health assessment;1;Structures;1;;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Reciprocating machines;1;;1;;1;Time series;1;;1;5;euclidean
+Health modelling;1;Energy cells and batteries;1;;1;;1;Time series;1;;1;5;euclidean
+Fault feature extraction;1;Rotary machines;1;;1;;1;Signals;1;;1;5;euclidean
+Multiple steps future state forecast;1;Rotary machines;1;;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Lubricants;1;;1;;1;;1;Operating time in days, Operating time in motor-hours, Viscosity, ignition point, Total Base Number, Anti-oxidation particles percentage, Anti-wear Particles percentage, Elements ppm, Sulphating products percentage, Soot percentage;1;5;euclidean
+Multiple steps future state forecast;1;Energy cells and batteries;1;;1;;1;;1;Not specified others;1;5;euclidean
+Fault identification;1;Rotary machines;1;;1;;1;;1;Compressor Temperature, Compressor Pressure, Turbine Temperature, Turbine Pressure, Shaft speed, Altitude, Mach Number, Fuel flow;1;5;euclidean
+Remaining useful life estimation;1;Energy cells and batteries;1;;1;;1;;1;Voltage, Impedance, Current, Temperature;1;5;euclidean
+Remaining useful life estimation;1;Energy cells and batteries;1;;1;;1;;1;Battery capacity;1;5;euclidean
+Remaining useful life estimation;1;Electrical components;1;;1;;1;;1;Capacitance, Degradation rate;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;;1;;1;Not specified others;1;5;euclidean
+Fault detection;1;Rotary machines;1;;1;;1;;1;Vibrations;1;5;euclidean
+Health modelling;1;Energy cells and batteries;1;;1;;1;;1;Battery capacity;1;5;euclidean
+Fault detection;1;Energy cells and batteries;1;;1;;1;;1;Current, Voltage;1;5;euclidean
+Remaining useful life estimation;1;;1;Simulated jet-engines data;1;Off-line;1;;1;;1;5;euclidean
+Health modelling;1;;1;Lithium-ion battery;1;Online;1;;1;;1;5;euclidean
+Fault identification;1;;1;Railway track circuit;1;Off-line;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;Rotor shafts;1;Online;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;Steam Turbine;1;Online;1;;1;;1;5;euclidean
+Fault detection;1;;1;Wind turbines;1;Online;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;Rolling bearings;1;Online;1;;1;;1;5;euclidean
+Health modelling;1;;1;LED Lighting;1;Off-line;1;;1;;1;5;euclidean
+Multiple steps future state forecast;1;;1;Lithium-ion battery;1;Off-line;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;Rolling bearings;1;Off-line;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;Supercapacitor;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;Lithium-ion battery;1;;1;Time series;1;;1;5;euclidean
+Fault feature extraction;1;;1;Rolling bearings;1;;1;Signals;1;;1;5;euclidean
+Health modelling;1;;1;mining machinery;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;Laser device;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;Oil condition;1;;1;Time series;1;;1;5;euclidean
+Fault detection;1;;1;Railway track circuit;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;Rolling bearings;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;Simulated jet-engines data;1;;1;Time series;1;;1;5;euclidean
+Health modelling;1;;1;Rolling bearings;1;;1;Time series;1;;1;5;euclidean
+Multiple steps future state forecast;1;;1;Lithium-ion battery;1;;1;;1;Not specified others;1;5;euclidean
+Remaining useful life estimation;1;;1;Simulated jet-engines data;1;;1;;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+Fault detection;1;;1;Railway track circuit;1;;1;;1;Voltage, Current;1;5;euclidean
+Fault identification;1;;1;Proton exchange membrane fuel cell;1;;1;;1;Mechanical stresses, Temperature, Voltage, Impurities;1;5;euclidean
+Multiple steps future state forecast;1;;1;Lithium-ion battery;1;;1;;1;Not specified others;1;5;euclidean
+Remaining useful life estimation;1;;1;Laser device;1;;1;;1;Time;1;5;euclidean
+Health assessment;1;;1;Lithium-ion battery;1;;1;;1;Health index;1;5;euclidean
+Multiple steps future state forecast;1;;1;Lithium-ion battery;1;;1;;1;Not specified others;1;5;euclidean
+Fault detection;1;;1;Railway track circuit;1;;1;;1;Voltage, Current;1;5;euclidean
+Health modelling;1;;1;Electrolytic capacitors ;1;;1;;1;Capacitator impedance frecuency response;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Both;1;Signals;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+Health modelling;1;;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+Health assessment;1;;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Online;1;Time series;1;;1;5;euclidean
+Multiple steps future state forecast;1;;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+Fault identification;1;;1;;1;Off-line;1;;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+Health modelling;1;;1;;1;Off-line;1;;1;Temperature, Humidity, Current, Time;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Off-line;1;;1;Battery capacity;1;5;euclidean
+Fault detection;1;;1;;1;Online;1;;1;Current, Voltage;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Off-line;1;;1;Acustic, Load;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Off-line;1;;1;Voltage, Impedance, Current, Temperature;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Off-line;1;;1;Health index;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Online;1;;1;Capacitance, Degradation rate;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Off-line;1;;1;Vibrations;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Off-line;1;;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;;1;Time series;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;;1;Signals;1;Health index;1;5;euclidean
+Health modelling;1;;1;;1;;1;Time series;1;Corresponding time, Force measurement;1;5;euclidean
+Fault detection;1;;1;;1;;1;Signals;1;Vibrations;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;;1;Time series;1;Physical fan speed, Corrected fan speed;1;5;euclidean
+Multiple steps future state forecast;1;;1;;1;;1;Time series;1;Temperature, Fluid Pressure, Humidity, Power, Fuel flow;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;;1;Time series;1;Battery capacity;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;;1;Time series;1;Operating time in days, Operating time in motor-hours, Viscosity, ignition point, Total Base Number, Anti-oxidation particles percentage, Anti-wear Particles percentage, Elements ppm, Sulphating products percentage, Soot percentage;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;;1;Time series;1;Acustic, Load;1;5;euclidean
+Multiple steps future state forecast;1;;1;;1;;1;Time series;1;Not specified others;1;5;euclidean
+;1;Structures;1;carbon epoxy coupons;1;Off-line;1;;1;;1;5;euclidean
+;1;Structures;1;Filters;1;Off-line;1;;1;;1;5;euclidean
+;1;Energy cells and batteries;1;Lithium-ion battery;1;Off-line;1;;1;;1;5;euclidean
+;1;Electrical components;1;Railway track circuit;1;Off-line;1;;1;;1;5;euclidean
+;1;Rotary machines;1;Turbofan engine;1;Online;1;;1;;1;5;euclidean
+;1;Structures;1;carbon epoxy coupons;1;Off-line;1;;1;;1;5;euclidean
+;1;Rotary machines;1;Simulated jet-engines data;1;Online;1;;1;;1;5;euclidean
+;1;Rotary machines;1;Rolling bearings;1;Online;1;;1;;1;5;euclidean
+;1;Electromechanical systems;1;naval machinery;1;Off-line;1;;1;;1;5;euclidean
+;1;Energy cells and batteries;1;Lithium-ion battery;1;Off-line;1;;1;;1;5;euclidean
+;1;Rotary machines;1;Wind turbines;1;;1;Time series;1;;1;5;euclidean
+;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;Time series;1;;1;5;euclidean
+;1;Rotary machines;1;Cutter tool;1;;1;Signals;1;;1;5;euclidean
+;1;Rotary machines;1;Rolling bearings;1;;1;Time series;1;;1;5;euclidean
+;1;Rotary machines;1;Rolling bearings;1;;1;Time series;1;;1;5;euclidean
+;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;Time series;1;;1;5;euclidean
+;1;Rotary machines;1;Simulated jet-engines data;1;;1;Time series;1;;1;5;euclidean
+;1;Rotary machines;1;electric cooling fan health pronostic;1;;1;Time series;1;;1;5;euclidean
+;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;Time series;1;;1;5;euclidean
+;1;Energy cells and batteries;1;Proton exchange membrane fuel cell;1;;1;Time series;1;;1;5;euclidean
+;1;Lubricants;1;Oil condition;1;;1;;1;Operating time in days, Operating time in motor-hours, Viscosity, ignition point, Total Base Number, Anti-oxidation particles percentage, Anti-wear Particles percentage, Elements ppm, Sulphating products percentage, Soot percentage;1;5;euclidean
+;1;Rotary machines;1;Rolling bearings;1;;1;;1;Vibrations;1;5;euclidean
+;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;;1;Voltage, Impedance, Current, Temperature;1;5;euclidean
+;1;Rotary machines;1;Rolling bearings;1;;1;;1;Acustic, Load;1;5;euclidean
+;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;;1;Voltage, Current, Impedance, Temperature;1;5;euclidean
+;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;;1;Voltage, Current, Impedance, Temperature;1;5;euclidean
+;1;Lubricants;1;Oil condition;1;;1;;1;Operating time in days, Operating time in motor-hours, Viscosity, ignition point, Total Base Number, Anti-oxidation particles percentage, Anti-wear Particles percentage, Elements ppm, Sulphating products percentage, Soot percentage;1;5;euclidean
+;1;Rotary machines;1;Rolling bearings;1;;1;;1;Peak-to-Peak, Maximum peak value, Root mean square, Kurtosis, Skewness, Mutual information, Entropy, Arithmetic mean of PSD, Line integral, Autoregressive model, Energy;1;5;euclidean
+;1;Rotary machines;1;Rolling bearings;1;;1;;1;Vibration level;1;5;euclidean
+;1;Rotary machines;1;Steam Turbine;1;;1;;1;Condenser vacuum, Generator Power, Temperature, Fluid Pressure;1;5;euclidean
+;1;Reciprocating machines;1;;1;Online;1;Time series;1;;1;5;euclidean
+;1;Rotary machines;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;Rotary machines;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;Energy cells and batteries;1;;1;Online;1;Time series;1;;1;5;euclidean
+;1;Energy cells and batteries;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;Rotary machines;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;Electrical components;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;Rotary machines;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;Rotary machines;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;Electrical components;1;;1;Online;1;Signals;1;;1;5;euclidean
+;1;Energy cells and batteries;1;;1;Off-line;1;;1;Not specified others;1;5;euclidean
+;1;Electrical components;1;;1;Off-line;1;;1;Temperature, Humidity, Current, Time;1;5;euclidean
+;1;Rotary machines;1;;1;Online;1;;1;Temperature, Fluid Pressure, Spinning speed;1;5;euclidean
+;1;Rotary machines;1;;1;Off-line;1;;1;Acustic, Load;1;5;euclidean
+;1;Energy cells and batteries;1;;1;Off-line;1;;1;Time, Resistance;1;5;euclidean
+;1;Energy cells and batteries;1;;1;Off-line;1;;1;Not specified others;1;5;euclidean
+;1;Energy cells and batteries;1;;1;Off-line;1;;1;Mechanical stresses, Temperature, Voltage, Impurities;1;5;euclidean
+;1;Electrical components;1;;1;Online;1;;1;Info vector;1;5;euclidean
+;1;Electrical components;1;;1;Off-line;1;;1;Temperature, Humidity, Current, Time;1;5;euclidean
+;1;Rotary machines;1;;1;Off-line;1;;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+;1;Electrical components;1;;1;;1;Signals;1;Capacitator impedance frecuency response;1;5;euclidean
+;1;Energy cells and batteries;1;;1;;1;Signals;1;Current, Voltage;1;5;euclidean
+;1;Electrical components;1;;1;;1;Time series;1;Temperature, Electrical resistance;1;5;euclidean
+;1;Pipelines and ducts;1;;1;;1;Signals;1;Flow rate, Average pressure change ;1;5;euclidean
+;1;Electrical components;1;;1;;1;Signals;1;Capacitator impedance frecuency response;1;5;euclidean
+;1;Rotary machines;1;;1;;1;Time series;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+;1;Rotary machines;1;;1;;1;Time series;1;Acustic, Load;1;5;euclidean
+;1;Rotary machines;1;;1;;1;Time series;1;Vibrations;1;5;euclidean
+;1;Energy cells and batteries;1;;1;;1;Time series;1;Health index;1;5;euclidean
+;1;Structures;1;;1;;1;Time series;1;Thermal conductivity, Coefficient of heat transfer, Degree of blackness;1;5;euclidean
+;1;;1;Aircraft bearings;1;Online;1;Time series;1;;1;5;euclidean
+;1;;1;Rolling bearings;1;Off-line;1;Signals;1;;1;5;euclidean
+;1;;1;Lithium-ion battery;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;;1;Lithium-ion battery;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;;1;Low methane compressors;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;;1;Lithium-ion battery;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;;1;LED Lighting;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;;1;electric cooling fan health pronostic;1;Online;1;Time series;1;;1;5;euclidean
+;1;;1;Rolling bearings;1;Off-line;1;Signals;1;;1;5;euclidean
+;1;;1;Rolling bearings;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;;1;Rolling bearings;1;Off-line;1;;1;Acustic, Load;1;5;euclidean
+;1;;1;Rechargeable batteries with capacity regeneration phenomena;1;Off-line;1;;1;Battery capacity degradation data;1;5;euclidean
+;1;;1;Rolling bearings;1;Off-line;1;;1;Peak-to-Peak, Maximum peak value, Root mean square, Kurtosis, Skewness, Mutual information, Entropy, Arithmetic mean of PSD, Line integral, Autoregressive model, Energy;1;5;euclidean
+;1;;1;Electrolytic capacitors ;1;Online;1;;1;Capacitator impedance frecuency response;1;5;euclidean
+;1;;1;Wind turbines;1;Online;1;;1;Distance, Degradation speed;1;5;euclidean
+;1;;1;Simulated jet-engines data;1;Off-line;1;;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+;1;;1;Simulated jet-engines data;1;Off-line;1;;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+;1;;1;Rectifier system;1;Off-line;1;;1;Peak to peak of ripple voltaje, Ripple factor;1;5;euclidean
+;1;;1;Supercapacitor;1;Online;1;;1;Temperature, Voltage;1;5;euclidean
+;1;;1;Rolling bearings;1;Off-line;1;;1;Acustic, Load;1;5;euclidean
+;1;;1;Electrolytic capacitors ;1;;1;Signals;1;Capacitator impedance frecuency response;1;5;euclidean
+;1;;1;Simulated jet-engines data;1;;1;Time series;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+;1;;1;mining machinery;1;;1;Time series;1;Spinning speed, Distance, Time;1;5;euclidean
+;1;;1;Sliding chair of railway point machine;1;;1;Time series;1;Force measurement;1;5;euclidean
+;1;;1;Rolling bearings;1;;1;Time series;1;Acustic, Load;1;5;euclidean
+;1;;1;Lithium-ion battery;1;;1;Time series;1;Not specified others;1;5;euclidean
+;1;;1;Lithium-ion battery;1;;1;Time series;1;Voltage, Impedance, Current, Temperature;1;5;euclidean
+;1;;1;Wind turbines;1;;1;Signals;1;Spinning speed, Torque, Current;1;5;euclidean
+;1;;1;Low methane compressors;1;;1;Time series;1;Vibrations;1;5;euclidean
+;1;;1;Rolling bearings;1;;1;Signals;1;Vibrations;1;5;euclidean
+;1;;1;;1;Off-line;1;Signals;1;Vibrations;1;5;euclidean
+;1;;1;;1;Off-line;1;Time series;1;Temporal dependencies , Spatial dependencies ;1;5;euclidean
+;1;;1;;1;Off-line;1;Time series;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+;1;;1;;1;Off-line;1;Time series;1;Load , Frequency, Data points, Geometric parameter (S);1;5;euclidean
+;1;;1;;1;Off-line;1;Time series;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+;1;;1;;1;Online;1;Signals;1;Condenser vacuum, Generator Power, Temperature, Fluid Pressure;1;5;euclidean
+;1;;1;;1;Off-line;1;Time series;1;energy, hits;1;5;euclidean
+;1;;1;;1;Unknown synchronization;1;Unknow format;1;Unknown variable;1;5;euclidean
+;1;;1;;1;Off-line;1;Time series;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio;1;5;euclidean
+;1;;1;;1;Off-line;1;Time series;1;gyroscope drift;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Simulated jet-engines data;1;Off-line;1;;1;;1;5;euclidean
+Health assessment;1;Energy cells and batteries;1;Lithium-ion battery;1;Online;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Simulated jet-engines data;1;Off-line;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Rolling bearings;1;Off-line;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Energy cells and batteries;1;Lithium-ion battery;1;Online;1;;1;;1;5;euclidean
+Fault feature extraction;1;Rotary machines;1;Rolling bearings;1;Off-line;1;;1;;1;5;euclidean
+Health assessment;1;Energy cells and batteries;1;Lithium-ion battery;1;Off-line;1;;1;;1;5;euclidean
+Health modelling;1;Energy cells and batteries;1;Lithium-ion battery;1;Online;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Energy cells and batteries;1;Lithium-ion battery;1;Both;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Energy cells and batteries;1;Lithium-ion battery;1;Online;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Simulated jet-engines data;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Simulated jet-engines data;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Turbofan engine;1;;1;Signals;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Rolling bearings;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Reciprocating machines;1;Sliding chair of railway point machine;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Simulated jet-engines data;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Simulated jet-engines data;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Rolling bearings;1;;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Lubricants;1;Oil condition;1;;1;;1;Operating time in days, Operating time in motor-hours, Viscosity, ignition point, Total Base Number, Anti-oxidation particles percentage, Anti-wear Particles percentage, Elements ppm, Sulphating products percentage, Soot percentage;1;5;euclidean
+Fault feature extraction;1;Rotary machines;1;Simulated jet-engines data;1;;1;;1;Temperature, Fluid Pressure, Spinning speed;1;5;euclidean
+Fault identification;1;Power transmission device;1;Gearbox in wind turbine;1;;1;;1;Frequency center, Frequency variance, Mean square frequency, Maximum contact stress, Maximum bending stress, Number of gear meshing;1;5;euclidean
+Health modelling;1;Structures;1;mining machinery;1;;1;;1;Spinning speed, Distance, Time;1;5;euclidean
+Fault detection;1;Rotary machines;1;Simulated jet-engines data;1;;1;;1;Compressor Temperature, Compressor Pressure, Turbine Temperature, Turbine Pressure, Shaft speed, Altitude, Mach Number, Fuel flow;1;5;euclidean
+Health modelling;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;;1;Battery capacity;1;5;euclidean
+Fault detection;1;Rotary machines;1;Rolling bearings;1;;1;;1;Vibrations;1;5;euclidean
+Fault detection;1;Rotary machines;1;Simulated jet-engines data;1;;1;;1;Measurement vector, Control input vector;1;5;euclidean
+Fault detection;1;Rotary machines;1;Rolling bearings;1;;1;;1;Vibrations;1;5;euclidean
+Fault detection;1;Rotary machines;1;Rolling bearings;1;;1;;1;Vibrations;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+Fault detection;1;Electrical components;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+Health modelling;1;Structures;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+Fault identification;1;Electrical components;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+Multiple steps future state forecast;1;Energy cells and batteries;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+Health modelling;1;Rotary machines;1;;1;Off-line;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Energy cells and batteries;1;;1;Online;1;Time series;1;;1;5;euclidean
+Health assessment;1;Energy cells and batteries;1;;1;Online;1;Time series;1;;1;5;euclidean
+One step future state forecast;1;Rotary machines;1;;1;Online;1;Signals;1;;1;5;euclidean
+Fault detection;1;Rotary machines;1;;1;Off-line;1;;1;Vibrations;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;Online;1;;1;Distance, Degradation speed;1;5;euclidean
+Remaining useful life estimation;1;Energy cells and batteries;1;;1;Off-line;1;;1;Time, Resistance;1;5;euclidean
+Fault detection;1;Rotary machines;1;;1;Off-line;1;;1;Vibrations;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;Online;1;;1;Acceleration;1;5;euclidean
+Remaining useful life estimation;1;Electrical components;1;;1;Online;1;;1;Capacitator impedance frecuency response;1;5;euclidean
+Health modelling;1;Structures;1;;1;Off-line;1;;1;degradation;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;Off-line;1;;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+Health assessment;1;Rotary machines;1;;1;Online;1;;1;Frequency, Spinning speed, Acceleration;1;5;euclidean
+Fault feature extraction;1;Rotary machines;1;;1;Off-line;1;;1;Vibrations;1;5;euclidean
+Health modelling;1;Energy cells and batteries;1;;1;;1;Time series;1;Battery capacity;1;5;euclidean
+Health assessment;1;Energy cells and batteries;1;;1;;1;Time series;1;Health index;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;;1;Signals;1;Vibration level;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;;1;Signals;1;Vibrations;1;5;euclidean
+Fault identification;1;Electrical components;1;;1;;1;Signals;1;Info vector;1;5;euclidean
+Remaining useful life estimation;1;Energy cells and batteries;1;;1;;1;Time series;1;Voltage, Current, Temperature;1;5;euclidean
+Health modelling;1;Electrical components;1;;1;;1;Time series;1;Temperature, Voltage;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;;1;Time series;1;Acustic, Load;1;5;euclidean
+Fault detection;1;Electrical components;1;;1;;1;Time series;1;Acustic features, Current;1;5;euclidean
+Remaining useful life estimation;1;Energy cells and batteries;1;;1;;1;Time series;1;Battery capacity;1;5;euclidean
+Fault detection;1;;1;Rolling bearings;1;Off-line;1;Signals;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;carbon epoxy coupons;1;Off-line;1;Time series;1;;1;5;euclidean
+Fault detection;1;;1;Rolling bearings;1;Off-line;1;Signals;1;;1;5;euclidean
+Health modelling;1;;1;Lithium-ion battery;1;Online;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;Cutter tool;1;Online;1;Signals;1;;1;5;euclidean
+Multiple steps future state forecast;1;;1;Lithium-ion battery;1;Off-line;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;Lead-acid batteries;1;Off-line;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;Simulated jet-engines data;1;Off-line;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;naval machinery;1;Off-line;1;Time series;1;;1;5;euclidean
+Multiple steps future state forecast;1;;1;Lithium-ion battery;1;Off-line;1;Time series;1;;1;5;euclidean
+Fault identification;1;;1;Wind turbines;1;Online;1;;1;Spinning speed, Torque, Current;1;5;euclidean
+Health modelling;1;;1;carbon epoxy coupons;1;Off-line;1;;1;Energy, Hits;1;5;euclidean
+Multiple steps future state forecast;1;;1;Lithium-ion battery;1;Off-line;1;;1;Not specified others;1;5;euclidean
+Fault detection;1;;1;Rolling bearings;1;Off-line;1;;1;Vibrations;1;5;euclidean
+Remaining useful life estimation;1;;1;Lithium-ion battery;1;Off-line;1;;1;Voltage, Impedance, Current, Temperature;1;5;euclidean
+Multiple steps future state forecast;1;;1;Lithium-ion battery;1;Off-line;1;;1;Not specified others;1;5;euclidean
+Remaining useful life estimation;1;;1;Engine;1;Off-line;1;;1;Temperature, Static pressure, Total Pressure;1;5;euclidean
+Health assessment;1;;1;Production plant machines;1;Off-line;1;;1;N dimensional feature vector;1;5;euclidean
+Remaining useful life estimation;1;;1;Oil condition;1;Off-line;1;;1;Operating time in days, Operating time in motor-hours, Viscosity, ignition point, Total Base Number, Anti-oxidation particles percentage, Anti-wear Particles percentage, Elements ppm, Sulphating products percentage, Soot percentage;1;5;euclidean
+Fault detection;1;;1;Rolling bearings;1;Off-line;1;;1;Vibrations;1;5;euclidean
+Remaining useful life estimation;1;;1;2008 IEEE PHM challenge problem;1;;1;Time series;1;Vibration;1;5;euclidean
+Remaining useful life estimation;1;;1;Rolling bearings;1;;1;Time series;1;Acustic, Load;1;5;euclidean
+Remaining useful life estimation;1;;1;Rolling bearings;1;;1;Signals;1;Vibration level;1;5;euclidean
+Remaining useful life estimation;1;;1;Rotor shafts;1;;1;Time series;1;Current crack depth;1;5;euclidean
+One step future state forecast;1;;1;Low methane compressors;1;;1;Time series;1;Vibrations;1;5;euclidean
+Remaining useful life estimation;1;;1;Simulated jet-engines data;1;;1;Time series;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+Health modelling;1;;1;Cars production line ;1;;1;Time series;1;Equipment effectiveness, Down time, Scrap rate;1;5;euclidean
+Remaining useful life estimation;1;;1;Lithium-ion battery;1;;1;Time series;1;Voltage, Impedance, Current, Temperature;1;5;euclidean
+Remaining useful life estimation;1;;1;Lithium-ion battery;1;;1;Time series;1;Battery capacity;1;5;euclidean
+Multiple steps future state forecast;1;;1;Lithium-ion battery;1;;1;Time series;1;Voltage, Current, Impedance, Temperature;1;5;euclidean
+Fault detection;1;;1;;1;Online;1;Signals;1;Flow rate, Average pressure change ;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Online;1;Time series;1;Loss of active materials of the positive electrode , Loss of active materials of the negative electrode, Loss of lithium inventory;1;5;euclidean
+Fault detection;1;;1;;1;Off-line;1;Signals;1;Vibrations;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Online;1;Time series;1;Voltage at discharge, Battery capacity;1;5;euclidean
+Fault detection;1;;1;;1;Online;1;Time series;1;Measurement vector, Control input vector;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Off-line;1;Time series;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Off-line;1;Time series;1;Real infrared thermography data;1;5;euclidean
+One step future state forecast;1;;1;;1;Off-line;1;Time series;1;Voltage;1;5;euclidean
+Health modelling;1;;1;;1;Off-line;1;Time series;1;Health index, Crack length;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;Off-line;1;Time series;1;Voltage, Current;1;5;euclidean
+;1;Rotary machines;1;Simulated jet-engines data;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;Rotary machines;1;Simulated jet-engines data;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;Energy cells and batteries;1;Lithium-ion battery;1;Online;1;Time series;1;;1;5;euclidean
+;1;Energy cells and batteries;1;Lithium-ion battery;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;Rotary machines;1;Rolling bearings;1;Online;1;Time series;1;;1;5;euclidean
+;1;Rotary machines;1;Cutter tool;1;Online;1;Signals;1;;1;5;euclidean
+;1;Structures;1;mining machinery;1;Online;1;Time series;1;;1;5;euclidean
+;1;Rotary machines;1;Rolling bearings;1;Off-line;1;Signals;1;;1;5;euclidean
+;1;Electrical components;1;Solenoid valves;1;Off-line;1;Time series;1;;1;5;euclidean
+;1;Rotary machines;1;Rolling bearings;1;Off-line;1;Signals;1;;1;5;euclidean
+;1;Rotary machines;1;Rolling bearings;1;Online;1;;1;Vibrations;1;5;euclidean
+;1;Rotary machines;1;Rolling bearings;1;Off-line;1;;1;Acustic, Load;1;5;euclidean
+;1;Structures;1;Railway track geometry;1;Online;1;;1;Mechanical stresses, Life cycles, Mechanical Pressure, Elastic strains, Plastic strains;1;5;euclidean
+;1;Energy cells and batteries;1;Lithium-ion battery;1;Off-line;1;;1;Battery capacity;1;5;euclidean
+;1;Energy cells and batteries;1;Lithium-ion battery;1;Off-line;1;;1;Voltage, Impedance, Current, Temperature;1;5;euclidean
+;1;Rotary machines;1;Simulated jet-engines data;1;Off-line;1;;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio;1;5;euclidean
+;1;Electrical components;1;Circuit breakers;1;Online;1;;1;Acustic signal;1;5;euclidean
+;1;Rotary machines;1;Rolling bearings;1;Off-line;1;;1;Vibrations;1;5;euclidean
+;1;Energy cells and batteries;1;Lithium-ion battery;1;Off-line;1;;1;Temperature, Voltage, Current, Time;1;5;euclidean
+;1;Electromechanical systems;1;naval machinery;1;Off-line;1;;1;Health index;1;5;euclidean
+;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;Time series;1;Not specified others;1;5;euclidean
+;1;Electrical components;1;Railway track circuit;1;;1;Time series;1;Voltage, Current;1;5;euclidean
+;1;Rotary machines;1;Rolling bearings;1;;1;Signals;1;Frequency;1;5;euclidean
+;1;Rotary machines;1;Rolling bearings;1;;1;Time series;1;Acustic, Load;1;5;euclidean
+;1;Rotary machines;1;Steam Turbine;1;;1;Signals;1;Condenser vacuum, Generator Power, Temperature, Fluid Pressure;1;5;euclidean
+;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;Time series;1;Corresponding cycle number, Voltage;1;5;euclidean
+;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;Time series;1;Not specified others;1;5;euclidean
+;1;Electrical components;1;Railway track circuit;1;;1;Time series;1;Voltage, Current;1;5;euclidean
+;1;Rotary machines;1;Rolling bearings;1;;1;Time series;1;Weighted minimum quantization error;1;5;euclidean
+;1;Energy cells and batteries;1;Rechargeable batteries with capacity regeneration phenomena;1;;1;Time series;1;Battery capacity degradation data;1;5;euclidean
+;1;Electromechanical systems;1;;1;Off-line;1;Time series;1;Flow rates, efficiency;1;5;euclidean
+;1;Rotary machines;1;;1;Online;1;Time series;1;Vibrations;1;5;euclidean
+;1;Energy cells and batteries;1;;1;Online;1;Time series;1;Battery capacity;1;5;euclidean
+;1;Rotary machines;1;;1;Online;1;Time series;1;Wind power;1;5;euclidean
+;1;Electrical components;1;;1;Off-line;1;Time series;1;Relative Luminosity;1;5;euclidean
+;1;Rotary machines;1;;1;Off-line;1;Time series;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+;1;Electrical components;1;;1;Online;1;Signals;1;Current;1;5;euclidean
+;1;Rotary machines;1;;1;Off-line;1;Time series;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+;1;Energy cells and batteries;1;;1;Off-line;1;Time series;1;Voltage, Impedance, Current, Temperature;1;5;euclidean
+;1;Rotary machines;1;;1;Off-line;1;Time series;1;Health index;1;5;euclidean
+;1;;1;Rolling bearings;1;Off-line;1;Signals;1;Vibrations;1;5;euclidean
+;1;;1;Simulated jet-engines data;1;Off-line;1;Time series;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+;1;;1;Laser device;1;Off-line;1;Time series;1;Time;1;5;euclidean
+;1;;1;Rolling bearings;1;Online;1;Time series;1;Vibrations;1;5;euclidean
+;1;;1;Proton exchange membrane fuel cell;1;Off-line;1;Structured text-based;1;Mechanical stresses, Temperature, Voltage, Impurities;1;5;euclidean
+;1;;1;Simulated jet-engines data;1;Off-line;1;Time series;1;Health index;1;5;euclidean
+;1;;1;Rolling bearings;1;Online;1;Signals;1;Vibration level;1;5;euclidean
+;1;;1;Lithium-ion battery;1;Off-line;1;Time series;1;Not specified others;1;5;euclidean
+;1;;1;Switching power converters;1;Online;1;Signals;1;Info vector;1;5;euclidean
+;1;;1;Rectifier in railway electrical traction systems;1;Unknown synchronization;1;Unknow format;1;Unknown variable;1;5;euclidean
+One step future state forecast;1;Rotary machines;1;Cutter tool;1;Online;1;Signals;1;;1;5;euclidean
+Fault feature extraction;1;Electrical components;1;Solenoid valves;1;Off-line;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;2008 IEEE PHM challenge problem;1;Off-line;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Rolling bearings;1;Online;1;Signals;1;;1;5;euclidean
+Health assessment;1;Rotary machines;1;Simulated jet-engines data;1;Off-line;1;Time series;1;;1;5;euclidean
+Health modelling;1;Electrical components;1;Electrolytic capacitors ;1;Online;1;Signals;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Rolling bearings;1;Off-line;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Rolling bearings;1;Off-line;1;Time series;1;;1;5;euclidean
+Health assessment;1;Electromechanical systems;1;naval machinery;1;Off-line;1;Time series;1;;1;5;euclidean
+Remaining useful life estimation;1;Electromechanical systems;1;naval machinery;1;Off-line;1;Time series;1;;1;5;euclidean
+Fault detection;1;Rotary machines;1;Rolling bearings;1;Off-line;1;;1;Vibrations;1;5;euclidean
+Fault feature extraction;1;Electrical components;1;Circuit breakers;1;Online;1;;1;Acustic signal;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Simulated jet-engines data;1;Off-line;1;;1;Not specified others;1;5;euclidean
+Remaining useful life estimation;1;Electrical components;1;Actuator ;1;Online;1;;1;Current;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Rolling bearings;1;Off-line;1;;1;Acustic, Load;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Simulated jet-engines data;1;Off-line;1;;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+Fault identification;1;Rotary machines;1;Simulated jet-engines data;1;Off-line;1;;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+Fault detection;1;Rotary machines;1;Simulated jet-engines data;1;Online;1;;1;Measurement vector, Control input vector;1;5;euclidean
+Fault detection;1;Rotary machines;1;Rolling bearings;1;Off-line;1;;1;Vibrations;1;5;euclidean
+Fault detection;1;Energy cells and batteries;1;Proton exchange membrane fuel cell;1;Online;1;;1;Current, Voltage;1;5;euclidean
+Fault detection;1;Energy cells and batteries;1;Proton exchange membrane fuel cell;1;;1;Signals;1;Current, Voltage;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Rotor shafts;1;;1;Time series;1;Current crack depth;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Engine;1;;1;Time series;1;Temperature, Static pressure, Total Pressure;1;5;euclidean
+Multiple steps future state forecast;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;Time series;1;Voltage, Current, Impedance, Temperature;1;5;euclidean
+Remaining useful life estimation;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;Time series;1;Loss of active materials of the positive electrode , Loss of active materials of the negative electrode, Loss of lithium inventory;1;5;euclidean
+Remaining useful life estimation;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;Time series;1;Voltage, Current;1;5;euclidean
+Health modelling;1;Rotary machines;1;electric cooling fan health pronostic;1;;1;Time series;1;Temperature, Vibration;1;5;euclidean
+Remaining useful life estimation;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;Time series;1;Corresponding cycle number, Voltage;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Aircraft bearings;1;;1;Time series;1;Health index, Crack length;1;5;euclidean
+Health assessment;1;Energy cells and batteries;1;Lithium-ion battery;1;;1;Time series;1;Health index;1;5;euclidean
+Multiple steps future state forecast;1;Structures;1;;1;Online;1;Time series;1;Temperature, Flow rate;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;Online;1;Signals;1;Vibration level;1;5;euclidean
+Remaining useful life estimation;1;Lubricants;1;;1;Off-line;1;Time series;1;Operating time in days, Operating time in motor-hours, Viscosity, ignition point, Total Base Number, Anti-oxidation particles percentage, Anti-wear Particles percentage, Elements ppm, Sulphating products percentage, Soot percentage;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;Both;1;Signals;1;Vibration level;1;5;euclidean
+Health modelling;1;Structures;1;;1;Online;1;Time series;1;Spinning speed, Distance, Time;1;5;euclidean
+Fault detection;1;Rotary machines;1;;1;Online;1;Time series;1;Imbalance source vector , Cracked source shaft vector ;1;5;euclidean
+Health modelling;1;Rotary machines;1;;1;Online;1;Time series;1;Vibrations;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;Off-line;1;Time series;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+Multiple steps future state forecast;1;Electrical components;1;;1;Off-line;1;Time series;1;Peak voltage of receiving end under adjustment state, Peak voltage of receiving end under shunting state;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;;1;Online;1;Signals;1;Acceleration;1;5;euclidean
+Health modelling;1;;1;Vehicle suspension;1;Off-line;1;Time series;1;degradation;1;5;euclidean
+Remaining useful life estimation;1;;1;Simulated jet-engines data;1;Off-line;1;Time series;1;Not specified others;1;5;euclidean
+Fault detection;1;;1;Proton exchange membrane fuel cell;1;Online;1;Signals;1;Current, Voltage;1;5;euclidean
+Remaining useful life estimation;1;;1;Oil condition;1;Off-line;1;Time series;1;Operating time in days, Operating time in motor-hours, Viscosity, ignition point, Total Base Number, Anti-oxidation particles percentage, Anti-wear Particles percentage, Elements ppm, Sulphating products percentage, Soot percentage;1;5;euclidean
+Fault detection;1;;1;Simulated jet-engines data;1;Online;1;Time series;1;Measurement vector, Control input vector;1;5;euclidean
+Remaining useful life estimation;1;;1;Lithium-ion battery;1;Online;1;Time series;1;Corresponding cycle number, Battery capacity;1;5;euclidean
+Health modelling;1;;1;Filters;1;Off-line;1;Time series;1;Pressure drop, Volumetric flow rate, Cake thickness, Porosity;1;5;euclidean
+Fault detection;1;;1;Rolling bearings;1;Off-line;1;Signals;1;Vibrations;1;5;euclidean
+Remaining useful life estimation;1;;1;Rolling bearings;1;Off-line;1;Signals;1;Acceleration, Frequency, Vibrations;1;5;euclidean
+Remaining useful life estimation;1;;1;Lithium-ion battery;1;Off-line;1;Time series;1;Voltage, Impedance, Current, Temperature;1;5;euclidean
+;1;Rotary machines;1;Simulated jet-engines data;1;Off-line;1;Time series;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio;1;5;euclidean
+;1;Energy cells and batteries;1;Lithium-ion battery;1;Off-line;1;Time series;1;Battery capacity;1;5;euclidean
+;1;Structures;1;mining machinery;1;Online;1;Time series;1;Spinning speed, Distance, Time;1;5;euclidean
+;1;Electromechanical systems;1;naval machinery;1;Off-line;1;Time series;1;Flow rates, efficiency;1;5;euclidean
+;1;Energy cells and batteries;1;Lithium-ion battery;1;Off-line;1;Time series;1;Not specified others;1;5;euclidean
+;1;Electrical components;1;Rectifier system;1;Off-line;1;Time series;1;Peak to peak of ripple voltaje, Ripple factor;1;5;euclidean
+;1;Structures;1;Tank reactor;1;Online;1;Time series;1;Temperature, Flow rates;1;5;euclidean
+;1;Energy cells and batteries;1;Proton exchange membrane fuel cell;1;Online;1;Signals;1;Current, Voltage;1;5;euclidean
+;1;Rotary machines;1;Wind turbines;1;Off-line;1;Time series;1;Temperature;1;5;euclidean
+;1;Rotary machines;1;Rolling bearings;1;Off-line;1;Signals;1;Vibrations;1;5;euclidean

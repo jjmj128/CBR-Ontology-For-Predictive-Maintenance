@@ -1,0 +1,52 @@
+Task;w1;Case study type;w2;Case study;w3;Online/Offline;w4;Input for the model;w5;Input type;w6;Number of cases to retrieve;Amalgamation function
+Feature extraction;1;;1;;1;;1;;1;;1;5;euclidean
+Fault detection;1;;1;;1;;1;;1;;1;5;euclidean
+Fault identification;1;;1;;1;;1;;1;;1;5;euclidean
+Health modelling;1;;1;;1;;1;;1;;1;5;euclidean
+Health assessment;1;;1;;1;;1;;1;;1;5;euclidean
+One step future step forecast;1;;1;;1;;1;;1;;1;5;euclidean
+Multiple steps future steps forecast;1;;1;;1;;1;;1;;1;5;euclidean
+Remaining useful life estimation;1;;1;;1;;1;;1;;1;5;euclidean
+;1;Rotary machines;1;;1;;1;;1;;1;5;euclidean
+;1;Reciprocating machines;1;;1;;1;;1;;1;5;euclidean
+;1;Electrical components;1;;1;;1;;1;;1;5;euclidean
+;1;Structures;1;;1;;1;;1;;1;5;euclidean
+;1;Energy cells and batteries;1;;1;;1;;1;;1;5;euclidean
+;1;Production lines;1;;1;;1;;1;;1;5;euclidean
+;1;Others;1;;1;;1;;1;;1;5;euclidean
+;1;;1;Simulated jet-engines data;1;;1;;1;;1;5;euclidean
+;1;;1;Railway track geometry;1;;1;;1;;1;5;euclidean
+;1;;1;Cars production line ;1;;1;;1;;1;5;euclidean
+;1;;1;Proton exchange membrane fuel cell;1;;1;;1;;1;5;euclidean
+;1;;1;Lithium-ion battery;1;;1;;1;;1;5;euclidean
+;1;;1;Circuit breakers;1;;1;;1;;1;5;euclidean
+;1;;1;Oil condition;1;;1;;1;;1;5;euclidean
+;1;;1;Rolling bearings;1;;1;;1;;1;5;euclidean
+;1;;1;Aircraft bearings;1;;1;;1;;1;5;euclidean
+;1;;1;Turbofan engine;1;;1;;1;;1;5;euclidean
+;1;;1;;1;Online;1;;1;;1;5;euclidean
+;1;;1;;1;Off-line;1;;1;;1;5;euclidean
+;1;;1;;1;;1;Signals;1;;1;5;euclidean
+;1;;1;;1;;1;Structured text-based;1;;1;5;euclidean
+;1;;1;;1;;1;Text-based maintenance/operation logs;1;;1;5;euclidean
+;1;;1;;1;;1;Time series;1;;1;5;euclidean
+;1;;1;;1;;1;;1;Acustic, Load;1;5;euclidean
+;1;;1;;1;;1;;1;Physical fan speed, Corrected fan speed;1;5;euclidean
+;1;;1;;1;;1;;1;Peak to peak of ripple voltaje, Ripple factor;1;5;euclidean
+;1;;1;;1;;1;;1;Voltage at discharge, Battery capacity;1;5;euclidean
+;1;;1;;1;;1;;1;Flank wear width, Cutting force;1;5;euclidean
+;1;;1;;1;;1;;1;Temperature, Static pressure, Total Pressure;1;5;euclidean
+;1;;1;;1;;1;;1;Vibrations;1;5;euclidean
+;1;;1;;1;;1;;1;Spinning speed, Torque, Current;1;5;euclidean
+;1;;1;;1;;1;;1;Capacitator impedance frecuency response;1;5;euclidean
+;1;;1;;1;;1;;1;Thermal conductivity, Coefficient of heat transfer, Degree of blackness;1;5;euclidean
+Fault detection;1;Rotary machines;1;Rolling bearings;1;Off-line;1;Signals;1;Vibrations;1;5;euclidean
+Health assessment;1;Energy cells and batteries;1;Lithium-ion battery;1;Off-line;1;Time series;1;Health index;1;5;euclidean
+Multiple steps future state forecast;1;Energy cells and batteries;1;Lithium-ion battery;1;Off-line;1;Time series;1;Voltage, Current, Impedance, Temperature;1;5;euclidean
+Fault detection;1;Rotary machines;1;Rolling bearings;1;Off-line;1;Signals;1;Vibrations;1;5;euclidean
+Health assessment;1;Structures;1;Metallurgical Ladles;1;Off-line;1;Time series;1;Thermal conductivity, Coefficient of heat transfer, Degree of blackness;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;electric cooling fan health pronostic;1;Online;1;Time series;1;Temperature, Vibration;1;5;euclidean
+Health modelling;1;Electrical components;1;Supercapacitor;1;Online;1;Time series;1;Temperature, Voltage;1;5;euclidean
+Remaining useful life estimation;1;Rotary machines;1;Simulated jet-engines data;1;Off-line;1;Time series;1;Temperature, Fluid Pressure, Spinning speed, Baypass ratio, Coolant bleed;1;5;euclidean
+Fault identification;1;Power transmission device;1;Gearbox in wind turbine;1;Online;1;Time series;1;Frequency center, Frequency variance, Mean square frequency;1;5;euclidean
+Remaining useful life estimation;1;Structures;1;Railway track geometry;1;Online;1;Time series;1;Mechanical stresses, Life cycles, Mechanical Pressure, Elastic strains, Plastic strains;1;5;euclidean
