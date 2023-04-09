@@ -14,7 +14,7 @@ import org.semanticweb.owlapi.util.SimpleIRIMapper;
  */
 public class AppConfiguration {
 
-	public static String data_path = "C:\\Users\\Montero\\Desktop\\Repositorio\\CBR-Ontology-For-Predictive-Maintenance\\CBR-Ontology-For-Predictive-Maintenance\\CBR-Ontology\\CBRproject\\data\\";
+	public static String data_path = "C:YOUR-DIRECTORY\\CBR-Ontology-For-Predictive-Maintenance\\CBR-Ontology\\CBRproject\\data\\";
 	// Local folder path where the files used by the code are stored (case base in
 	// .csv, ontology case base, myCBR porject file, etc).
 	public static String projectName = "PredictMaint_myCBR.prj";

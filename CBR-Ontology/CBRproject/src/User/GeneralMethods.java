@@ -9,7 +9,7 @@ import java.util.Set;
  * This class contains some methods for data manipulation taht are used by other
  * pieces of code within the project.
  * 
- * @author Hugo
+ * @author Juan
  *
  */
 public class GeneralMethods {

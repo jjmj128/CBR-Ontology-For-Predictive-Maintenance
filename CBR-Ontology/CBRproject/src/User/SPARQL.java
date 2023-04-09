@@ -14,7 +14,7 @@ import org.apache.jena.util.FileManager;
 /**
  * This class allows to perform SPARQL queries on an ontology using Jena API
  * 
- * @author Hugo
+ * @author Juan
  *
  */
 public class SPARQL {

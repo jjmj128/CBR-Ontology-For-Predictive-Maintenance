@@ -30,7 +30,7 @@ import OntologyTools.CSVtoOntology;
  * class Ontology are used for that purpose. The ontology files must be saved in
  * RDF/XML syntax (choose this option when using Save ass in Protégé).
  * 
- * @author Hugo
+ * @author Juan
  *
  */
 public class CSVtoOntologyExec {
